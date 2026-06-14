@@ -1,5 +1,6 @@
 {
   "name": "resume-builder",
+  "homepage": "https://pravinjhs.github.io/resume-builder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
