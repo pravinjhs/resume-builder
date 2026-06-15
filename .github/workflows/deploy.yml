@@ -19,8 +19,8 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 22
+          cache: "npm"
 
       - name: Install Dependencies
         run: npm ci
@@ -28,7 +28,7 @@ jobs:
       - name: Build React Application
         run: npm run build
         env:
-          CI: false 
+          CI: false
           PUBLIC_URL: /resume-builder
 
       - name: Configure SPA Routing Fallback
@@ -37,6 +37,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build # Keeps 'dist' for Vite. Change to 'build' if using Create React App.
+          folder: dist # Keeps 'dist' for Vite. Change to 'build' if using Create React App.
           branch: gh-pages
           clean: true
