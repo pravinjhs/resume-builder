@@ -6,18 +6,18 @@ import { ProfessionalExperience } from "./components/ProfessionalExperience";
 import { Education } from "./components/Education";
 
 export const App: React.FC = () => {
-  const globalAppStyle: React.CSSProperties = {
-    margin: "10px",
-    padding: "10px",
-    fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
-    color: "#334155",
-    backgroundColor: "#f8fafc",
-    lineHeight: 1.25,
-    fontSize: "11pt",
-  };
+  // const globalAppStyle: React.CSSProperties = {
+  //   margin: "10px",
+  //   padding: "10px",
+  //   fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+  //   color: "#334155",
+  //   backgroundColor: "#f8fafc",
+  //   lineHeight: 1.25,
+  //   fontSize: "11pt",
+  // };
 
   return (
-    <div style={globalAppStyle}>
+    <div className="main-container">
       {/* Header Container maps dynamic parameters from json fields */}
       <div
         className="header-container"
@@ -38,16 +38,7 @@ export const App: React.FC = () => {
         >
           {resumeData.name}
         </h1>
-        <div
-          className="headline"
-          style={{
-            fontSize: "11pt",
-            color: "#024ddf",
-            fontWeight: 600,
-            margin: "0 0 12px 0",
-            letterSpacing: "0.2px",
-          }}
-        >
+        <div className="headline">
           {resumeData.headline.title} |{" "}
           {resumeData.headline.subTitles.join(" | ")} ||{" "}
           {resumeData.headline.tagline}

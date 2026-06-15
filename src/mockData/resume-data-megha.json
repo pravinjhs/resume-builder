@@ -1,0 +1,150 @@
+{
+  "name": "Pravin Kumar Agrawal",
+  "headline": {
+    "title": "Senior Software Engineer II",
+    "subTitles": ["Technical Lead", "ReactJS Expert"],
+    "tagline": "11+ Years of experience in Leading Scalable Web Application Development"
+  },
+  "contact": {
+    "phone": "+91-9873648928",
+    "email": "pravinagrawal145@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/pravinjhs/",
+    "address": "B59, Swastik City, Unnao Balaji Road, Burah, Jhansi, UP 284002"
+  },
+  "professionalSummary": "Result-driven Senior Software Engineer with over 11+ years of total professional IT experience, including 8+ years of dedicated expertise in large-scale modern web architecture, frontend state engineering, and large ecosystem development.",
+  "summaryBullets": [
+    "<strong>Technical Depth:</strong> Mastery over production environments deploying JavaScript, TypeScript, ReactJS, NextJS, AngularJS, HTML5, CSS3, and NodeJS.",
+    "<strong>Architectural Focus:</strong> Proven track record in complex state management using Redux Toolkit, foundational setup of scalable frameworks, and seamless execution of cross-device responsive UI models.",
+    "<strong>Compliance & Process:</strong> Champion of digital inclusivity through rigorous adherence to WCAG Standards and advanced workflow accelerations utilizing Claude AI code execution tools within agile frameworks."
+  ],
+  "technicalSkills": [
+    {
+      "category": "Frontend Architecture",
+      "skills": "ReactJS, Redux Toolkit, TypeScript, JavaScript (ES6+), NextJS, HTML5, CSS3, AngularJS, JQuery, Angular 2/5/7/8, Tailwind CSS, Styled Components, Bootstrap, Micro Frontend Architecture"
+    },
+    {
+      "category": "Backend & Cloud APIs",
+      "skills": "NodeJS, Express.js, GraphQL, RESTful Web Services, Core Java, Basics of Spring Boot, Apache Kafka Microservices Architecture"
+    },
+    {
+      "category": "UI/UX Design Workflow",
+      "skills": "Figma Component Translation, Interactive Analytics Wireframing, Handoff Optimization, WCAG Standard, Storybook"
+    },
+    {
+      "category": "Testing Frameworks",
+      "skills": "Jest (Unit/Integration Testing), Mocha, Karma E2E Testing Runner"
+    },
+    {
+      "category": "DevOps & Observability",
+      "skills": "Amazon Web Services (AWS), CI/CD Automation (Jenkins, GitLab Pipelines), Docker Containerization, Logging & Monitoring (Splunk, Datadog, Kibana), PagerDuty Incident Management"
+    },
+    {
+      "category": "Mobile Engineering",
+      "skills": "React Native (Cross-Platform Android & iOS Production Releases), Ionic Framework, Angular JS"
+    },
+    {
+      "category": "Build & Utilities Tools",
+      "skills": "Webpack, Vite, Rollup.js, Mustache.js, AJAX Async Paradigms, Bootstrap Grid Systems, Storybook UI Components, Transifex Localization Management"
+    },
+    {
+      "category": "Core Competencies",
+      "skills": "Frontend Architecture, Responsive UI/UX Development, Performance Optimization, Debugging, Root Cause Analysis, Agile Development, Code Review, Technical Documentation and Design, Mentorship, Leadership, Collaboration with designers, product managers, and other developers to deliver high-quality applications"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "company": "Ticketmaster India Private Limited, Gurugram",
+      "roles": "• Senior Software Engineer II (Jul 2024 - Present) \n• Senior Software Engineer I (Mar 2020 - Jun 2024)",
+      "duration": "Mar 2020 — Present",
+      "projects": [
+        {
+          "title": "Global Accounts, Authentication, Customer & User Management Platforms",
+          "links": "Production Sites: ticketmaster.com | ticketmaster.co.uk | ticketmaster.ie | ticketmaster.sg",
+          "bullets": [
+            "Led the architecture, design, and development of core enterprise customer and user management platforms, including ACPM, ACAU, Webapp-Common-UI, GDS, ACGA, ATCM, and ASVD webapps",
+            "Architected the flagship ACPM and ASVD Global Accounts system from scratch, implementing an enterprise-grade NextJS and React base structure styled with isolation patterns via Styled Components.",
+            "Centralized complex global application states by moving legacy paradigms into high-performance Redux Toolkit structures, minimizing re-renders across synchronous authentication pipelines.",
+            "Engineered micro-service aggregators on the server level utilizing Express.js and constructed robust, data-efficient query protocols with GraphQL, dropping network data overhead.",
+            "Pioneered accessibility standard compliance frameworks, executing widespread refactoring to adhere strictly to WCAG Standards for screen readers, navigation, and core visual elements.",
+            "Implemented cross-continental globalization mechanisms via Transifex across strategic webapps (ASMA, MYAM, AACU, ATCM) enabling localization protocols for US, UK, CA, FR, NL, and NZ markets.",
+            "Deployed mission-critical identity protection configurations including Multi-Factor Authentication (MFA), live session Freezing/Locking within internal monitoring platforms (ATCS), and role visibility switches."
+          ],
+          "techStack": "NextJS, ReactJS, Redux Toolkit, Express.js, GraphQL, TypeScript, JavaScript, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, Splunk, AWS Infrastructure, Jenkins pipelines, PagerDuty."
+        }
+      ]
+    },
+    {
+      "company": "Orange Business Services, Gurugram",
+      "roles": "Senior Software Engineer",
+      "duration": "Aug 2018 — Mar 2020",
+      "projects": [
+        {
+          "title": "Live Data Hub Platform",
+          "bullets": [
+            "Engineered high-throughput smart-city data solutions supporting administrative decision-making workflows and deep metadata analytics parsing.",
+            "Created a decoupled, reusable asynchronous File Upload framework element using Angular 7, increasing system processing speeds for voluminous data packages.",
+            "Optimized web elements utilizing strict performance scoring benchmarks, enhancing viewport rendering speeds and accessibility behaviors across responsive screen formats."
+          ],
+          "techStack": "Angular 2/4/7, TypeScript, JavaScript, HTML, CSS, Karma Runner, Webpack, Jenkins."
+        }
+      ]
+    },
+    {
+      "company": "GlobalLogic India Pvt Ltd, Noida",
+      "roles": "Software Engineer",
+      "duration": "Sep 2016 — Aug 2018",
+      "projects": [
+        {
+          "title": "Ericsson - MediaKind MediaFirst Video Application",
+          "bullets": [
+            "Developed converged multiscreen ecosystem players linking Pay TV architectures with modern Over-The-Top (OTT) cross-platform delivery models.",
+            "Designed standard viewing responsive frameworks tailored explicitly to 1ft (mobile), 2ft (desktop), and 10ft (Smart TV) displays ensuring strict interaction alignment.",
+            "Re-engineered the cross-team UX Tool from architectural foundations to address deep layout lag; refactored the internal UI Component Selector engine to mimic Chrome Inspector native properties."
+          ]
+        },
+        {
+          "title": "Rodan + Fields - R + F Pulse Web/Mobile Application",
+          "bullets": [
+            "It is a mobile-first digital business suite and web/mobile application designed for Brand Consultants.",
+            "Wrote performance-optimized Android and iOS views using React Native, incorporating deep phone modules such as hardware-integrated contacts, direct email client protocols, and calling hooks."
+          ],
+          "techStack": "Backbone.js, ReactJS, React Native, TypeScript, JavaScript, HTML, CSS, iOS/Android SDK wrappers."
+        }
+      ]
+    },
+    {
+      "company": "Mobiloitte Technologies, New Delhi",
+      "roles": "Associate Software Engineer",
+      "duration": "Dec 2014 — Sep 2016",
+      "projects": [
+        {
+          "title": "HD Supply Solutions Mobile Platform",
+          "bullets": [
+            "Integrated hardware barcode and laser scanning APIs directly into commercial MRO inventory management systems.",
+            "Coded algorithmic localized indexing filtering structures to feed instant autocomplete and context-aware product lookup modules."
+          ]
+        },
+        {
+          "title": "Secugo Security Community Framework",
+          "bullets": [
+            "Engineered localized public safety frameworks packing hardware-accelerated 3D Touch quick access menus, secure in-app purchases, and geofenced push notices via Google Maps APIs.",
+            "Crafted lightning-fast instant messaging rooms utilizing low-latency full-duplex WebSocket connections."
+          ],
+          "techStack": "React Native, AppCelerator, Titanium, JavaScript, TypeScript, JSON, Android Studio / Xcode environments."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Application (MCA)",
+      "school": "Uttar Pradesh Technical University, Lucknow, U.P.",
+      "duration": "2011 — 2014"
+    },
+    {
+      "degree": "Bachelor of Computer Application (BCA)",
+      "school": "Makhanlal Chaturvedi National University of Journalism and Communication, Bhopal, M.P.",
+      "duration": "2008 — 2011"
+    }
+  ]
+}

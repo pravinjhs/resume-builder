@@ -20,17 +20,6 @@ interface ExperienceProps {
 }
 
 export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
-  const techStackBadgeStyle: React.CSSProperties = {
-    fontSize: "10pt",
-    color: "#475569",
-    marginTop: "4px",
-    marginBottom: "8px",
-    backgroundColor: "#f1f5f9",
-    padding: "4px 8px",
-    borderRadius: "4px",
-    borderLeft: "2px solid #cbd5e1",
-  };
-
   return (
     <section>
       <SectionHeader title="Professional Experience" />
@@ -107,17 +96,7 @@ export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
                 {project.title}
               </div>
               {project.links && (
-                <div
-                  className="project-links"
-                  style={{
-                    fontSize: "10pt",
-                    color: "#024ddf",
-                    marginBottom: "4px",
-                    fontWeight: 500,
-                  }}
-                >
-                  {project.links}
-                </div>
+                <div className="project-links">{project.links}</div>
               )}
               <ul
                 className="bullet-list"
@@ -136,7 +115,7 @@ export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
                 ))}
               </ul>
               {project.techStack && (
-                <div style={techStackBadgeStyle}>
+                <div className="tech-stack-badge">
                   <strong>Tech Stack:</strong> {project.techStack}
                 </div>
               )}
