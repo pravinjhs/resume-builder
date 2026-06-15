@@ -29,14 +29,13 @@ jobs:
         run: npm run build
         env:
           CI: false
-          PUBLIC_URL: /resume-builder
 
       - name: Configure SPA Routing Fallback
-        run: cp dist/index.html dist/404.html || cp build/index.html build/404.html
+        run: cp dist/index.html dist/404.html # Duplicate index.html to handle client-side routing refreshes
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # Keeps 'dist' for Vite. Change to 'build' if using Create React App.
+          folder: dist # Vite builds into the 'dist' folder by default
           branch: gh-pages
           clean: true
