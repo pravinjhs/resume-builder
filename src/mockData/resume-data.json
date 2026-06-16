@@ -54,11 +54,11 @@
   "professionalExperience": [
     {
       "company": "Ticketmaster India Private Limited, Gurugram",
-      "roles": "• Senior Software Engineer II (Jul 2024 - Present) \n• Senior Software Engineer I (Mar 2020 - Jun 2024)",
+      "roles": "• Senior Software Engineer II (Jul 2024 - Present) \n• Senior Software Engineer (Mar 2020 - Jun 2024)",
       "duration": "Mar 2020 — Present",
       "projects": [
         {
-          "title": "Global Accounts, Authentication, Customer & User Management Platforms",
+          "title": "Global Accounts, Authentication, MFA, Customer & Clients Tool Management Platforms",
           "links": "Production Sites: ticketmaster.com | ticketmaster.co.uk | ticketmaster.ie | ticketmaster.sg",
           "bullets": [
             "Led the architecture, design, and development of core enterprise customer and user management platforms, including ACPM, ACAU, Webapp-Common-UI, GDS, ACGA, ATCM, and ASVD webapps",
@@ -69,7 +69,7 @@
             "Implemented cross-continental globalization mechanisms via Transifex across strategic webapps (ASMA, MYAM, AACU, ATCM) enabling localization protocols for US, UK, CA, FR, NL, and NZ markets.",
             "Deployed mission-critical identity protection configurations including Multi-Factor Authentication (MFA), live session Freezing/Locking within internal monitoring platforms (ATCS), and role visibility switches."
           ],
-          "techStack": "NextJS, ReactJS, Redux Toolkit, Express.js, GraphQL, TypeScript, JavaScript, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, Splunk, AWS Infrastructure, Jenkins pipelines, PagerDuty."
+          "techStack": "ReactJS, TypeScript, JavaScript,Redux Toolkit, Express.js, GraphQL, NextJS, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, Splunk, AWS Infrastructure, Jenkins pipelines, PagerDuty."
         }
       ]
     },
@@ -85,7 +85,7 @@
             "Created a decoupled, reusable asynchronous File Upload framework element using Angular 7, increasing system processing speeds for voluminous data packages.",
             "Optimized web elements utilizing strict performance scoring benchmarks, enhancing viewport rendering speeds and accessibility behaviors across responsive screen formats."
           ],
-          "techStack": "Angular 2/4/7, TypeScript, JavaScript, HTML, CSS, Karma Runner, Webpack, Jenkins."
+          "techStack": "Angular 2/4/7, TypeScript, JavaScript, HTML, CSS, Karma Runner, Webpack, Jenkins, CI-CD Pipelines."
         }
       ]
     },
@@ -108,7 +108,7 @@
             "It is a mobile-first digital business suite and web/mobile application designed for Brand Consultants.",
             "Wrote performance-optimized Android and iOS views using React Native, incorporating deep phone modules such as hardware-integrated contacts, direct email client protocols, and calling hooks."
           ],
-          "techStack": "Backbone.js, ReactJS, React Native, TypeScript, JavaScript, HTML, CSS, iOS/Android SDK wrappers."
+          "techStack": "Backbone.js, ReactJS, React Native, TypeScript, JavaScript, HTML, CSS, webpack, mocha, iOS/Android SDK wrappers."
         }
       ]
     },
@@ -130,7 +130,7 @@
             "Engineered localized public safety frameworks packing hardware-accelerated 3D Touch quick access menus, secure in-app purchases, and geofenced push notices via Google Maps APIs.",
             "Crafted lightning-fast instant messaging rooms utilizing low-latency full-duplex WebSocket connections."
           ],
-          "techStack": "React Native, AppCelerator, Titanium, JavaScript, TypeScript, JSON, Android Studio / Xcode environments."
+          "techStack": "AppCelerator, Titanium, JavaScript, TypeScript, React Native, RESTful API, JWT Token, Android Studio / Xcode environments."
         }
       ]
     }
