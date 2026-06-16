@@ -9,7 +9,7 @@
     "phone": "+91-9873648928",
     "email": "pravinagrawal145@gmail.com",
     "linkedin": "https://www.linkedin.com/in/pravinjhs/",
-    "address": "B59, Swastik City, Unnao Balaji Road, Burah, Jhansi, UP 284002"
+    "address": "B59, Swastik City, Unnao Balaji Road, Burah, Jhansi, UP, India 284002"
   },
   "professionalSummary": "Result-driven Senior Software Engineer with over 11+ years of total professional IT experience, including 8+ years of dedicated expertise in large-scale modern web architecture, frontend state engineering, and large ecosystem development.",
   "summaryBullets": [
@@ -24,7 +24,7 @@
     },
     {
       "category": "Backend & Cloud APIs",
-      "skills": "NodeJS, Express.js, GraphQL, RESTful Web Services, Core Java, Basics of Spring Boot, Apache Kafka Microservices Architecture"
+      "skills": "NodeJS, Express.js, GraphQL, RESTful API, Web Services, Core Java, Basics of Spring Boot, Hibernate, Apache Kafka Microservices Architecture"
     },
     {
       "category": "UI/UX Design Workflow",
@@ -58,7 +58,7 @@
       "duration": "Mar 2020 — Present",
       "projects": [
         {
-          "title": "Global Accounts, Authentication, MFA, Customer & Clients Tool Management Platforms",
+          "title": "Global Accounts, Authentication, MFA, Customer & Clients Management Tool Platforms",
           "links": "Production Sites: ticketmaster.com | ticketmaster.co.uk | ticketmaster.ie | ticketmaster.sg",
           "bullets": [
             "Led the architecture, design, and development of core enterprise customer and user management platforms, including ACPM, ACAU, Webapp-Common-UI, GDS, ACGA, ATCM, and ASVD webapps",
