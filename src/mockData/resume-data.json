@@ -58,8 +58,7 @@
       "duration": "Mar 2020 — Jun 2026",
       "projects": [
         {
-          "title": "Global Accounts, Authentication, MFA, Customer & Clients Management Tool Platforms",
-          "links": "Production Sites: ticketmaster.com | ticketmaster.co.uk | ticketmaster.ie | ticketmaster.sg",
+          "title": "Global Accounts, Authentication, MFA, User Profile Management, Customer & Clients Management Tool",
           "bullets": [
             "Led the architecture, design, and development of core enterprise customer and user management platforms, including ACPM, ACAU, Webapp-Common-UI, GDS, ACGA, ATCM, and ASVD webapps",
             "Architected the flagship ACPM and ASVD Global Accounts system from scratch, implementing an enterprise-grade NextJS and React base structure styled with isolation patterns via Styled Components.",
