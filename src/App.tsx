@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import { Routes, Route, useSearchParams } from "react-router-dom";
 import resumeDataPravin from "./mockData/resume-data-pravin.json";
 import resumeDataMegha from "./mockData/resume-data-megha.json";
@@ -18,6 +18,18 @@ export const ResumeViewer: React.FC = () => {
 
     return resumeDataPravin;
   }, [selectedProfile]);
+
+  useEffect(() => {
+    // Calculate current DD-MM string dynamically
+    const today = new Date();
+    const dd = String(today.getDate()).padStart(2, "0");
+    const mm = String(today.getMonth() + 1).padStart(2, "0"); // Months are 0-indexed
+    const dateStr = `${dd}-${mm}`;
+
+    // Update browser tab string property
+    document.title = `${selectedProfile}-resume-${dateStr}`;
+  }, [selectedProfile]);
+
   return (
     <div className="main-container">
       <div
