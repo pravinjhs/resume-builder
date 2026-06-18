@@ -39,7 +39,9 @@ export const Education: React.FC<EducationProps> = ({ educationHistory }) => {
               <br />
               <span
                 className="edu-school"
-                style={{ fontSize: "9pt", color: "#475569" }}
+                style={{
+                  color: "#475569",
+                }}
               >
                 {edu.school}
               </span>
@@ -50,7 +52,6 @@ export const Education: React.FC<EducationProps> = ({ educationHistory }) => {
                 display: "table-cell",
                 textAlign: "right",
                 verticalAlign: "top",
-                fontSize: "9pt",
                 color: "#64748b",
                 fontWeight: 500,
               }}

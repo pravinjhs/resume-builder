@@ -36,7 +36,6 @@ export const CoreSkills: React.FC<CoreSkillsProps> = ({ skills }) => {
                 width: "22%",
                 fontWeight: 700,
                 color: "#1e293b",
-                fontSize: "9pt",
                 padding: "4px 6px 4px 0",
                 verticalAlign: "top",
               }}
@@ -48,7 +47,6 @@ export const CoreSkills: React.FC<CoreSkillsProps> = ({ skills }) => {
               style={{
                 display: "table-cell",
                 width: "78%",
-                fontSize: "9pt",
                 color: "#334155",
                 padding: "4px 0 4px 6px",
                 verticalAlign: "top",

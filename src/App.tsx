@@ -1,29 +1,28 @@
-import React from "react";
-import resumeData from "./mockData/resume-data.json"; // Direct import of your data file
+import React, { useMemo } from "react";
+import { Routes, Route, useSearchParams } from "react-router-dom";
+import resumeDataPravin from "./mockData/resume-data-pravin.json";
+import resumeDataMegha from "./mockData/resume-data-megha.json";
 import { ExecutiveSummary } from "./components/ExecutiveSummary";
 import { CoreSkills } from "./components/CoreSkills";
 import { ProfessionalExperience } from "./components/ProfessionalExperience";
 import { Education } from "./components/Education";
 
-export const App: React.FC = () => {
-  // const globalAppStyle: React.CSSProperties = {
-  //   margin: "10px",
-  //   padding: "10px",
-  //   fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
-  //   color: "#334155",
-  //   backgroundColor: "#f8fafc",
-  //   lineHeight: 1.25,
-  //   fontSize: "11pt",
-  // };
+export const ResumeViewer: React.FC = () => {
+  const [searchParams] = useSearchParams();
+  const selectedProfile = searchParams.get("resume")?.toLowerCase();
 
+  const resumeData = useMemo(() => {
+    if (selectedProfile === "megha") {
+      return resumeDataMegha;
+    }
+
+    return resumeDataPravin;
+  }, [selectedProfile]);
   return (
     <div className="main-container">
-      {/* Header Container maps dynamic parameters from json fields */}
       <div
         className="header-container"
         style={{
-          borderBottom: "2px solid #e2e8f0",
-          paddingBottom: "15px",
           marginBottom: "18px",
         }}
       >
@@ -39,8 +38,7 @@ export const App: React.FC = () => {
           {resumeData.name}
         </h1>
         <div className="headline">
-          {resumeData.headline.title} |{" "}
-          {resumeData.headline.subTitles.join(" | ")} ||{" "}
+          {resumeData.headline.title} || {resumeData.headline.subTitles} ||{" "}
           {resumeData.headline.tagline}
         </div>
         <div
@@ -103,14 +101,37 @@ export const App: React.FC = () => {
       </div>
 
       {/* Structured data flow distribution points */}
-      <ExecutiveSummary
-        text={resumeData.professionalSummary}
-        bullets={resumeData.summaryBullets}
-      />
+      <ExecutiveSummary text={resumeData.professionalSummary} />
       <CoreSkills skills={resumeData.technicalSkills} />
       <ProfessionalExperience jobs={resumeData.professionalExperience} />
       <Education educationHistory={resumeData.education} />
     </div>
+  );
+};
+
+// 2. Clean Fallback 404 Layout Component
+const NotFound: React.FC = () => {
+  return (
+    <div
+      style={{ padding: "50px", textAlign: "center", fontFamily: "sans-serif" }}
+    >
+      <h2 style={{ color: "#dc2626", fontSize: "24px" }}>
+        404 - Page Not Found
+      </h2>
+      <p style={{ color: "#475569", marginTop: "8px" }}>
+        The requested route URL does not exist.
+      </p>
+    </div>
+  );
+};
+
+// 3. Main Routing Application Entry Controller
+export const App: React.FC = () => {
+  return (
+    <Routes>
+      <Route path="/resume-builder/resume" element={<ResumeViewer />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 };
 

@@ -3,10 +3,9 @@ import { SectionHeader } from "./SectionHeader";
 
 interface SummaryProps {
   text: string;
-  bullets: string[];
 }
 
-export const ExecutiveSummary: React.FC<SummaryProps> = ({ text, bullets }) => {
+export const ExecutiveSummary: React.FC<SummaryProps> = ({ text }) => {
   return (
     <section>
       <SectionHeader title="Executive Summary" />
@@ -21,18 +20,6 @@ export const ExecutiveSummary: React.FC<SummaryProps> = ({ text, bullets }) => {
       >
         {text}
       </div>
-      <ul
-        className="summary-bullets"
-        style={{ margin: 0, paddingLeft: "18px" }}
-      >
-        {bullets.map((item, idx) => (
-          <li
-            key={idx}
-            style={{ marginBottom: "4px", fontSize: "10pt" }}
-            dangerouslySetInnerHTML={{ __html: item }}
-          />
-        ))}
-      </ul>
     </section>
   );
 };

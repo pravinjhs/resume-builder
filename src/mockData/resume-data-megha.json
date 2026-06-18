@@ -1,150 +1,142 @@
 {
-  "name": "Pravin Kumar Agrawal",
+  "name": "Megha Agarwal",
   "headline": {
-    "title": "Senior Software Engineer II",
-    "subTitles": ["Technical Lead", "ReactJS Expert"],
-    "tagline": "11+ Years of experience in Leading Scalable Web Application Development"
+    "title": "Senior Consultant",
+    "subTitles": "Technical Lead",
+    "tagline": "10+ Years of experience in Leading Scalable Web Application Development"
   },
   "contact": {
-    "phone": "+91-9873648928",
-    "email": "pravinagrawal145@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/pravinjhs/",
+    "phone": "+91-9910037924",
+    "email": "meghaagrawal0426@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/megha-agarwal2501/",
     "address": "B59, Swastik City, Unnao Balaji Road, Burah, Jhansi, UP 284002"
   },
-  "professionalSummary": "Result-driven Senior Software Engineer with over 11+ years of total professional IT experience, including 8+ years of dedicated expertise in large-scale modern web architecture, frontend state engineering, and large ecosystem development.",
-  "summaryBullets": [
-    "<strong>Technical Depth:</strong> Mastery over production environments deploying JavaScript, TypeScript, ReactJS, NextJS, AngularJS, HTML5, CSS3, and NodeJS.",
-    "<strong>Architectural Focus:</strong> Proven track record in complex state management using Redux Toolkit, foundational setup of scalable frameworks, and seamless execution of cross-device responsive UI models.",
-    "<strong>Compliance & Process:</strong> Champion of digital inclusivity through rigorous adherence to WCAG Standards and advanced workflow accelerations utilizing Claude AI code execution tools within agile frameworks."
-  ],
+  "professionalSummary": "Senior Consultant with 10+ years of experience in designing, developing, and implementing scalable software solutions across Linux-based environments. Proven expertise in Python development and automation, SQL/PL-SQL, and CI/CD pipeline engineering using GitLab and Jenkins. Strong background in containerization with Docker, infrastructure automation, and production-grade scripting using Python, Shell, and Perl. Adept at collaborating with cross-functional teams to deliver high-quality, secure, and reliable systems while optimizing performance and deployment workflows. Recognized for problem-solving, ownership, and mentoring junior engineers.",
   "technicalSkills": [
     {
-      "category": "Frontend Architecture",
-      "skills": "ReactJS, Redux Toolkit, TypeScript, JavaScript (ES6+), NextJS, HTML5, CSS3, AngularJS, JQuery, Angular 2/5/7/8, Tailwind CSS, Styled Components, Bootstrap, Micro Frontend Architecture"
-    },
-    {
-      "category": "Backend & Cloud APIs",
-      "skills": "NodeJS, Express.js, GraphQL, RESTful Web Services, Core Java, Basics of Spring Boot, Apache Kafka Microservices Architecture"
-    },
-    {
-      "category": "UI/UX Design Workflow",
-      "skills": "Figma Component Translation, Interactive Analytics Wireframing, Handoff Optimization, WCAG Standard, Storybook"
-    },
-    {
-      "category": "Testing Frameworks",
-      "skills": "Jest (Unit/Integration Testing), Mocha, Karma E2E Testing Runner"
-    },
-    {
-      "category": "DevOps & Observability",
-      "skills": "Amazon Web Services (AWS), CI/CD Automation (Jenkins, GitLab Pipelines), Docker Containerization, Logging & Monitoring (Splunk, Datadog, Kibana), PagerDuty Incident Management"
-    },
-    {
-      "category": "Mobile Engineering",
-      "skills": "React Native (Cross-Platform Android & iOS Production Releases), Ionic Framework, Angular JS"
-    },
-    {
-      "category": "Build & Utilities Tools",
-      "skills": "Webpack, Vite, Rollup.js, Mustache.js, AJAX Async Paradigms, Bootstrap Grid Systems, Storybook UI Components, Transifex Localization Management"
+      "category": "Cloud, DevOps & Observability",
+      "skills": "AWS, GCP, Jenkins, GitLab CI/CD Pipelines, Docker Containerization, Logging & Monitoring (Splunk), PagerDuty Incident Management"
     },
     {
       "category": "Core Competencies",
-      "skills": "Frontend Architecture, Responsive UI/UX Development, Performance Optimization, Debugging, Root Cause Analysis, Agile Development, Code Review, Technical Documentation and Design, Mentorship, Leadership, Collaboration with designers, product managers, and other developers to deliver high-quality applications"
+      "skills": "Frontend Architecture, Performance Optimization, Debugging, Root Cause Analysis, Agile Development, Code Review, Technical Documentation and Design, Mentorship, Leadership, Collaboration with designers, product managers, and other developers to deliver high-quality applications"
+    },
+    {
+      "category": "Other Skills",
+      "skills": "Python, Python automation, PQ/SQL, Postgresql, No-SQL, Linux, Perl, Shell Scripting"
     }
   ],
   "professionalExperience": [
     {
-      "company": "Ticketmaster India Private Limited, Gurugram",
-      "roles": "• Senior Software Engineer II (Jul 2024 - Present) \n• Senior Software Engineer I (Mar 2020 - Jun 2024)",
-      "duration": "Mar 2020 — Present",
+      "company": "HCL Tech, Noida",
+      "roles": "Senior Counsultant",
+      "duration": "Jul 2024 — Present",
       "projects": [
         {
-          "title": "Global Accounts, Authentication, Customer & User Management Platforms",
-          "links": "Production Sites: ticketmaster.com | ticketmaster.co.uk | ticketmaster.ie | ticketmaster.sg",
+          "title": "SAP Internal web app",
           "bullets": [
-            "Led the architecture, design, and development of core enterprise customer and user management platforms, including ACPM, ACAU, Webapp-Common-UI, GDS, ACGA, ATCM, and ASVD webapps",
-            "Architected the flagship ACPM and ASVD Global Accounts system from scratch, implementing an enterprise-grade NextJS and React base structure styled with isolation patterns via Styled Components.",
-            "Centralized complex global application states by moving legacy paradigms into high-performance Redux Toolkit structures, minimizing re-renders across synchronous authentication pipelines.",
-            "Engineered micro-service aggregators on the server level utilizing Express.js and constructed robust, data-efficient query protocols with GraphQL, dropping network data overhead.",
-            "Pioneered accessibility standard compliance frameworks, executing widespread refactoring to adhere strictly to WCAG Standards for screen readers, navigation, and core visual elements.",
-            "Implemented cross-continental globalization mechanisms via Transifex across strategic webapps (ASMA, MYAM, AACU, ATCM) enabling localization protocols for US, UK, CA, FR, NL, and NZ markets.",
-            "Deployed mission-critical identity protection configurations including Multi-Factor Authentication (MFA), live session Freezing/Locking within internal monitoring platforms (ATCS), and role visibility switches."
+            "SAP Core Integration: Bridges SAP S/4HANA enterprise data with web apps using optimized CDS views.",
+            "Automated Cloud Infrastructure: Provisions and configures containerized GCP environments using Terraform, Ansible, Docker, and Linux.",
+            "Backend & Automation Logic: Drives high-performance data processing and legacy subsystem tasks via Python and Perl scripting.",
+            "Robust CI/CD & Testing: Ensures rapid, high-quality deployments through automated Jenkins pipelines and PyTest suites.",
+            "Agile Project Delivery: Streamlines development workflows utilizing Git version control and JIRA task tracking."
           ],
-          "techStack": "NextJS, ReactJS, Redux Toolkit, Express.js, GraphQL, TypeScript, JavaScript, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, Splunk, AWS Infrastructure, Jenkins pipelines, PagerDuty."
+          "techStack": "PyTest, Docker, SAP S4 Hana, Python Scripting and Automation, CDS, Perl, Git, JIRA, Linux, Unix, Ansible, terraform, CI/CD Pipelines, GCP, Jenkins"
         }
       ]
     },
     {
-      "company": "Orange Business Services, Gurugram",
+      "company": "Tech Mahindra, Bangalore",
       "roles": "Senior Software Engineer",
-      "duration": "Aug 2018 — Mar 2020",
+      "duration": "Aug 2022 — Jul 2024",
       "projects": [
         {
-          "title": "Live Data Hub Platform",
+          "title": "VSPP - Mediakind",
           "bullets": [
-            "Engineered high-throughput smart-city data solutions supporting administrative decision-making workflows and deep metadata analytics parsing.",
-            "Created a decoupled, reusable asynchronous File Upload framework element using Angular 7, increasing system processing speeds for voluminous data packages.",
-            "Optimized web elements utilizing strict performance scoring benchmarks, enhancing viewport rendering speeds and accessibility behaviors across responsive screen formats."
+            "Video Storage and Processing Platform (VSPP) is a field-proven solution from MediaKind. It powers a unified solution for cloud DVR, on-demand, and time/place-shifted services"
           ],
-          "techStack": "Angular 2/4/7, TypeScript, JavaScript, HTML, CSS, Karma Runner, Webpack, Jenkins."
+          "techStack": "PyTest, Docker, Python Automation, Git, JIRA, Linux, Jenkins"
         }
       ]
     },
     {
-      "company": "GlobalLogic India Pvt Ltd, Noida",
+      "company": "Fiserv India Private Ltd",
       "roles": "Software Engineer",
-      "duration": "Sep 2016 — Aug 2018",
+      "duration": "Apr 2021 — Aug 2022",
       "projects": [
         {
-          "title": "Ericsson - MediaKind MediaFirst Video Application",
+          "title": "Money Pass - Report Geneation",
           "bullets": [
             "Developed converged multiscreen ecosystem players linking Pay TV architectures with modern Over-The-Top (OTT) cross-platform delivery models.",
             "Designed standard viewing responsive frameworks tailored explicitly to 1ft (mobile), 2ft (desktop), and 10ft (Smart TV) displays ensuring strict interaction alignment.",
             "Re-engineered the cross-team UX Tool from architectural foundations to address deep layout lag; refactored the internal UI Component Selector engine to mimic Chrome Inspector native properties."
-          ]
-        },
-        {
-          "title": "Rodan + Fields - R + F Pulse Web/Mobile Application",
-          "bullets": [
-            "It is a mobile-first digital business suite and web/mobile application designed for Brand Consultants.",
-            "Wrote performance-optimized Android and iOS views using React Native, incorporating deep phone modules such as hardware-integrated contacts, direct email client protocols, and calling hooks."
           ],
-          "techStack": "Backbone.js, ReactJS, React Native, TypeScript, JavaScript, HTML, CSS, iOS/Android SDK wrappers."
+          "techStack": "PyTest, Docker, Python Automation, Git, JIRA, Linux, Shell Scripting, Perl Automation"
         }
       ]
     },
     {
-      "company": "Mobiloitte Technologies, New Delhi",
-      "roles": "Associate Software Engineer",
-      "duration": "Dec 2014 — Sep 2016",
+      "company": "Genpact - HeadStrong Capital Market, Noida",
+      "roles": "Consultant",
+      "duration": "Oct 2019 — Apr 2021",
       "projects": [
         {
-          "title": "HD Supply Solutions Mobile Platform",
+          "title": "Morgan Stanley - Pipeline in P2 and FID1",
           "bullets": [
-            "Integrated hardware barcode and laser scanning APIs directly into commercial MRO inventory management systems.",
-            "Coded algorithmic localized indexing filtering structures to feed instant autocomplete and context-aware product lookup modules."
+            "Experienced professional with diversified experience as a product developer in reference data vendor management, capital market, and investment banking and worked with big industry leaders like Morgan Stanley, and GE Capital Market.",
+            "Released and deliver possible business solutions under Agile methodologies.",
+            "Worked for Equity, Options, and stock markets like Funds, Rights, and warrants through pipelines."
+          ],
+          "techStack": "Unix, Sybase, Oracle, Python, shell scripting, and tools like Jira, GIT, Autosys, Putty."
+        }
+      ]
+    },
+    {
+      "company": "Fiserv India Private Ltd",
+      "roles": "Software Engineer",
+      "duration": "Oct 2018 — Oct 2019",
+      "projects": [
+        {
+          "title": "Elan - Report Generation",
+          "bullets": [
+            "Develop new or modify existing Perl programs to load data from the source and create study-specific datasets/extracts.",
+            "Doing Analysis at the Granular level for their impact Analysis.",
+            "Interacting extensively with onshore counterparts on requirement gathering, analysis, and documentation.",
+            "Analyzing raw data, drawing conclusions & developing recommendations and Co-coordinating with other support teams: Development, Operations, QA."
+          ],
+          "techStack": "PyTest, Docker, Python Automation, Git, JIRA, Linux, Shell Scripting, Perl Automation"
+        }
+      ]
+    },
+    {
+      "company": "Ericsson India Global Services Private Limited",
+      "roles": "Senior Engineer - Automation",
+      "duration": "Oct 2015 — Oct 2018",
+      "projects": [
+        {
+          "title": "Tiger(Charging System), Testra",
+          "bullets": [
+            "Application tool used to monitor health check of IN network in Malaysia(UMOBILE) and Australia(Telestra).In-house automation, Automation of reports using Perl Scripting. Handling the development and maintenance phase of projects."
           ]
         },
         {
-          "title": "Secugo Security Community Framework",
+          "title": "Bharti Airtel, India",
           "bullets": [
-            "Engineered localized public safety frameworks packing hardware-accelerated 3D Touch quick access menus, secure in-app purchases, and geofenced push notices via Google Maps APIs.",
-            "Crafted lightning-fast instant messaging rooms utilizing low-latency full-duplex WebSocket connections."
+            "Responsible for delivering Overall signed KPIs(CBS-Capacity Backup  Report and MAPA- Management Accounting and Performance Analysis) for 15 circles.",
+            "Executing SQL queries to retrieve additional information from the databases and sometimes updating/correcting data as per the client's requirement.",
+            "Working in data research, analysis, management, data processing, error checking and correction, and in the form of Network Performance and Operations.",
+            "Working in escalation handling for the prime client Bharti which included activities related to reporting issues."
           ],
-          "techStack": "React Native, AppCelerator, Titanium, JavaScript, TypeScript, JSON, Android Studio / Xcode environments."
+          "techStack": "PyTest, Docker, Python Automation, Git, JIRA, Linux, Shell Scripting, Perl Automation"
         }
       ]
     }
   ],
   "education": [
     {
-      "degree": "Master of Computer Application (MCA)",
-      "school": "Uttar Pradesh Technical University, Lucknow, U.P.",
-      "duration": "2011 — 2014"
-    },
-    {
-      "degree": "Bachelor of Computer Application (BCA)",
-      "school": "Makhanlal Chaturvedi National University of Journalism and Communication, Bhopal, M.P.",
-      "duration": "2008 — 2011"
+      "degree": "Bachelor's degree B.E, Computer Science",
+      "school": "Lakshmi Narain College of Technology, Bhopal, MP",
+      "duration": "2011 — 2015"
     }
   ]
 }

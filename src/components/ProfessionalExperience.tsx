@@ -68,7 +68,6 @@ export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
                 display: "table-cell",
                 textAlign: "right",
                 verticalAlign: "top",
-                fontSize: "9pt",
                 color: "#64748b",
                 fontWeight: 500,
                 width: "25%",
@@ -93,11 +92,8 @@ export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
                   marginBottom: "2px",
                 }}
               >
-                {project.title}
+                Project: {project.title}
               </div>
-              {project.links && (
-                <div className="project-links">{project.links}</div>
-              )}
               <ul
                 className="bullet-list"
                 style={{ margin: "4px 0 6px 0", paddingLeft: "16px" }}
@@ -107,7 +103,6 @@ export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
                     key={bIdx}
                     style={{
                       marginBottom: "3px",
-                      fontSize: "9pt",
                       textAlign: "justify",
                     }}
                     dangerouslySetInnerHTML={{ __html: bullet }}
