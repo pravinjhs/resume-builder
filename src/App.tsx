@@ -114,6 +114,10 @@ export const ResumeViewer: React.FC = () => {
 
       {/* Structured data flow distribution points */}
       <ExecutiveSummary text={resumeData.professionalSummary} />
+      <ExecutiveSummary
+        text={"KEY_ACHIEVEMENTS"}
+        bullets={resumeData.keyAchievements}
+      />
       <CoreSkills skills={resumeData.technicalSkills} />
       <ProfessionalExperience jobs={resumeData.professionalExperience} />
       <Education educationHistory={resumeData.education} />

@@ -12,6 +12,13 @@
     "address": "B59, Swastik City, Unnao Balaji Road, Burah, Jhansi, UP 284002"
   },
   "professionalSummary": "Senior Consultant with 10+ years of experience in designing, developing, and implementing scalable software solutions across Linux-based environments. Proven expertise in Python development and automation, SQL/PL-SQL, and CI/CD pipeline engineering using GitLab and Jenkins. Strong background in containerization with Docker, infrastructure automation, and production-grade scripting using Python, Shell, and Perl. Adept at collaborating with cross-functional teams to deliver high-quality, secure, and reliable systems while optimizing performance and deployment workflows. Recognized for problem-solving, ownership, and mentoring junior engineers.",
+  "keyAchievements": [
+    "<strong>Led Frontend Architecture Modernization:</strong> Spearheaded the transition of legacy enterprise web platforms into highly scalable, modern architectures (React/Next.js), significantly reducing initial load times and boosting overall application performance.",
+    "<strong>Established Reusable Patterns & Systems:</strong> Designed and enforced reusable frontend component architecture and design system patterns adopted across multiple product teams, ensuring strict visual and structural consistency.",
+    "<strong>Championed Code Quality & Debugging Standards:</strong> Formulated advanced troubleshooting, profiling, and debugging workflows that cut system-critical runtime exceptions and expedited cross-team issue resolution.",
+    "<strong>Enforced Technical Governance & Mentorship:</strong> * Directed architectural design reviews, established rigorous testing and accessibility guidelines (WCAG compliance), and actively mentored mid-level and senior engineers to elevate engineering excellence.",
+    "<strong>Optimized State Management & Data Flow: </strong>Implemented robust state management standards utilizing tools like Redux Toolkit and managed complex data layers with GraphQL-based integrations and optimized RESTful APIs."
+  ],
   "technicalSkills": [
     {
       "category": "Cloud, DevOps & Observability",

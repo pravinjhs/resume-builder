@@ -12,6 +12,13 @@
     "address": "B59 Swastik City, Unnao Balaji Road Burha, Jhansi Uttar Pradesh India 284002"
   },
   "professionalSummary": "Senior Software Engineer with 11+ years of experience designing and delivering enterprise-grade web applications across customer identity, authentication, profile management, media, telecommunications, and smart-city platforms. Specialized in ReactJS, Next.js, TypeScript, Node.js, and modern frontend architecture with a strong focus on performance, accessibility, developer experience, and platform scalability. Experienced in leading cross-functional initiatives, mentoring engineers, and delivering secure, customer-facing solutions used by global audiences.",
+  "keyAchievements": [
+    "<strong>Led Frontend Architecture Modernization:</strong> Spearheaded the transition of legacy enterprise web platforms into highly scalable, modern architectures (React/Next.js), significantly reducing initial load times and boosting overall application performance.",
+    "<strong>Established Reusable Patterns & Systems:</strong> Designed and enforced reusable frontend component architecture and design system patterns adopted across multiple product teams, ensuring strict visual and structural consistency.",
+    "<strong>Championed Code Quality & Debugging Standards:</strong> Formulated advanced troubleshooting, profiling, and debugging workflows that cut system-critical runtime exceptions and expedited cross-team issue resolution.",
+    "<strong>Enforced Technical Governance & Mentorship:</strong> * Directed architectural design reviews, established rigorous testing and accessibility guidelines (WCAG compliance), and actively mentored mid-level and senior engineers to elevate engineering excellence.",
+    "<strong>Optimized State Management & Data Flow: </strong>Implemented robust state management standards utilizing tools like Redux Toolkit and managed complex data layers with GraphQL-based integrations and optimized RESTful APIs."
+  ],
   "technicalSkills": [
     {
       "category": "Frontend Architecture",
@@ -111,6 +118,36 @@
             "Crafted lightning-fast instant messaging rooms utilizing low-latency full-duplex WebSocket connections."
           ],
           "techStack": "AppCelerator, Titanium, JavaScript, TypeScript, React Native, RESTful API, JWT Token, Android Studio / Xcode environments."
+        }
+      ]
+    },
+    {
+      "company": "Mobiloitte Technologies, New Delhi",
+      "roles": "Trainee",
+      "duration": "Aug 2014 — Dec 2014",
+      "projects": [
+        {
+          "title": "Hybrid Mobile Application Development",
+          "bullets": [
+            "Developed cross-platform mobile applications using AppCelerator Titanium and Ionic frameworks, maintaining clean MVC architecture with JavaScript and AngularJS.",
+            "Integrated Google Maps APIs for geofenced push notifications and built interactive, low-latency messaging features using WebSockets."
+          ],
+          "techStack": "Cross Platform mobile application, AppCelerator, Titanium, MVC, JavaScript, Ionic Framework, AngularJS, Android and iOS mobile App."
+        }
+      ]
+    },
+    {
+      "company": "NIIT Limited, New Delhi",
+      "roles": "Intern",
+      "duration": "Feb 2014 — Jul 2014",
+      "projects": [
+        {
+          "title": "Web Component Development Using Java Technologies",
+          "bullets": [
+            "Engineered backend web components and managed data structures using Core Java, ensuring clean object-oriented design and efficient execution.",
+            "Designed and consumed RESTful APIs to facilitate seamless data exchange between Java server modules and client-side applications."
+          ],
+          "techStack": "Core Java, JavaScript, RESTful API, Android and iOS mobile App."
         }
       ]
     }
