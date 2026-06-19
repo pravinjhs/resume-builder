@@ -13,11 +13,12 @@
   },
   "professionalSummary": "Senior Consultant with 10+ years of experience in designing, developing, and implementing scalable software solutions across Linux-based environments. Proven expertise in Python development and automation, SQL/PL-SQL, and CI/CD pipeline engineering using GitLab and Jenkins. Strong background in containerization with Docker, infrastructure automation, and production-grade scripting using Python, Shell, and Perl. Adept at collaborating with cross-functional teams to deliver high-quality, secure, and reliable systems while optimizing performance and deployment workflows. Recognized for problem-solving, ownership, and mentoring junior engineers.",
   "keyAchievements": [
-    "<strong>Led Frontend Architecture Modernization:</strong> Spearheaded the transition of legacy enterprise web platforms into highly scalable, modern architectures (React/Next.js), significantly reducing initial load times and boosting overall application performance.",
-    "<strong>Established Reusable Patterns & Systems:</strong> Designed and enforced reusable frontend component architecture and design system patterns adopted across multiple product teams, ensuring strict visual and structural consistency.",
-    "<strong>Championed Code Quality & Debugging Standards:</strong> Formulated advanced troubleshooting, profiling, and debugging workflows that cut system-critical runtime exceptions and expedited cross-team issue resolution.",
-    "<strong>Enforced Technical Governance & Mentorship:</strong> * Directed architectural design reviews, established rigorous testing and accessibility guidelines (WCAG compliance), and actively mentored mid-level and senior engineers to elevate engineering excellence.",
-    "<strong>Optimized State Management & Data Flow: </strong>Implemented robust state management standards utilizing tools like Redux Toolkit and managed complex data layers with GraphQL-based integrations and optimized RESTful APIs."
+    "<strong>Infrastructure Automation:</strong> Accelerated multi-environment deployment speeds by 35% at HCL Tech by designing and provisioning automated, containerized GCP infrastructure using Terraform, Ansible, and Docker.",
+    "<strong>Enterprise Integration:</strong> Enhanced web application responsiveness by 40% at HCL Tech by architecting optimized SAP S/4HANA Core Data Services (CDS) views to seamlessly bridge enterprise backend data with internal web frontends.",
+    "<strong>Rendering Optimization:</strong> Eliminated deep layout lag at Fiserv by re-engineering a cross-team UX Tool from its architectural foundations, refactoring the internal UI Component Selector engine to mimic native Chrome Inspector performance.",
+    "<strong>Data Pipeline Scalability:</strong> Spearheaded Agile product delivery for Morgan Stanley's reference data systems at Genpact, successfully processing high-volume transactional data pipelines for complex equity, options, and stock markets.",
+    "<strong>Test & Pipeline Efficiency:</strong> Reduced test execution cycles by 30% at Tech Mahindra by building modular Python automated testing frameworks and migrating legacy test beds into isolated Docker containers.",
+    "<strong>SLA & KPI Management:</strong> Guaranteed 100% compliance on critical network capacity and performance reporting across 15 telecom circles for Bharti Airtel at Ericsson by optimizing complex SQL queries and automated Perl reporting scripts."
   ],
   "technicalSkills": [
     {
