@@ -11,42 +11,37 @@
     "linkedin": "https://www.linkedin.com/in/girraj-agrawal-7506b6327/",
     "address": "Shivpuri, MP India 473551"
   },
-  "professionalSummary": "Senior Software Engineer with 12+ years of experience designing and delivering enterprise-grade web applications across customer identity, authentication, profile management, media, telecommunications, and smart-city platforms. Specialized in ReactJS, Next.js, TypeScript, Node.js, and modern frontend architecture with a strong focus on performance, accessibility, developer experience, and platform scalability. Experienced in leading cross-functional initiatives, mentoring engineers, and delivering secure, customer-facing solutions used by global audiences.",
-  "keyAchievements": [
-    "<strong>Led Frontend Architecture Modernization:</strong> Spearheaded the transition of legacy enterprise web platforms into highly scalable, modern architectures (React/Next.js), significantly reducing initial load times and boosting overall application performance.",
-    "<strong>Enforced Technical Governance & Mentorship:</strong> * Directed architectural design reviews, established rigorous testing and accessibility guidelines (WCAG compliance), and actively mentored mid-level and senior engineers to elevate engineering excellence.",
-    "<strong>Optimized State Management & Data Flow: </strong>Implemented robust state management standards utilizing tools like Redux Toolkit and managed complex data layers with GraphQL-based integrations and optimized RESTful APIs."
-  ],
+  "professionalSummary": "Enthusiastic and self-driven B.E. Computer Science graduate seeking a fresh role as an Associate Software Engineer or Software Engineer. Equipped with a solid understanding of software development principles, programming, and problem-solving, along with hands-on academic project experience. Adept at learning new technologies quickly, collaborating with teams, and contributing to the development of scalable and efficient software solutions. Looking for an opportunity to begin a professional career while adding value to organizational objectives and growing as a technology professional.",
   "technicalSkills": [
     {
-      "category": "Frontend Architecture",
-      "skills": "ReactJS, TypeScript, JavaScript (ES6+), Next.js, State Management (Redux Toolkit, Zustand), HTML5, CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR, SSG, ISR"
+      "category": "Frontend Development",
+      "skills": "Applies dedicated knowledge to create responsive, user-focused interfaces utilizing HTML, CSS, and JavaScript."
     },
     {
-      "category": "Backend & Cloud APIs",
-      "skills": "Node.js, Express.js, GraphQL, REST APIs, Core Java, Spring Boot (Basics)"
+      "category": "Backend & Databases",
+      "skills": "Proficient in core development using Java and Python, and adept at data management using MySQL."
     },
     {
-      "category": "Testing & Build Tools",
-      "skills": "Jest, Mocha, Karma, Webpack, Vite, Rollup"
+      "category": "B.E. Computer Science Graduate",
+      "skills": "Motivated and equipped with a strong foundation in building comprehensive, end-to-end software solutions"
     },
     {
-      "category": "DevOps & Observability",
-      "skills": "AWS, Jenkins, GitLab CI/CD Pipelines, Docker, Logging & Monitoring (Splunk, Datadog, Kibana), PagerDuty Incident Management"
+      "category": "Problem Solving & OOP",
+      "skills": "Leverages strong troubleshooting, debugging, and critical thinking abilities to write clean, Object-Oriented Programming (OOP) code."
     },
     {
-      "category": "UI/UX & Core Practices",
-      "skills": "WCAG 2.1 Accessibility Compliance, Figma, Storybook, Localization Management (Transifex), Responsive UI Design, Performance Optimization, Code Reviews, Technical Leadership, Mentoring, Cross-functional Collaboration"
+      "category": "Team Collaboration",
+      "skills": "Highly collaborative mindset with a focus on contributing effectively to dynamic engineering teams."
     }
   ],
   "professionalExperience": [
     {
-      "company": "NIIT Limited, New Delhi",
-      "roles": "Intern",
-      "duration": "Feb 2014 — Jul 2014",
+      "company": "Boostup Digital, Bhopal",
+      "roles": "Internship",
+      "duration": "Apr 2025 — Jul 2025",
       "projects": [
         {
-          "title": "Web Component Development Using Java Technologies",
+          "title": "Web Component Development Using Core Java Technologies",
           "bullets": [
             "Engineered backend web components and managed data structures using Core Java, ensuring clean object-oriented design and efficient execution.",
             "Designed and consumed RESTful APIs to facilitate seamless data exchange between Java server modules and client-side applications."
@@ -58,14 +53,19 @@
   ],
   "education": [
     {
-      "degree": "Master of Computer Application (MCA)",
-      "school": "Uttar Pradesh Technical University, Lucknow, U.P.",
-      "duration": "2011 — 2014"
+      "degree": "Bachelor of Engineering, Computer Science & Engineering BE - (CSE)",
+      "school": "Oriental Group of Institutes, Bhopal, M.P.",
+      "duration": "2022 — 2026"
     },
     {
-      "degree": "Bachelor of Computer Application (BCA)",
-      "school": "Makhanlal Chaturvedi National University of Journalism and Communication, Bhopal, M.P.",
-      "duration": "2008 — 2011"
+      "degree": "12th, PCM - Grade A+",
+      "school": "Govt. Excellence School No. 1, Shivpuri, M.P.",
+      "duration": "2021 — 2022"
+    },
+    {
+      "degree": "10th, PCM - Grade A+",
+      "school": "Rangarh's Rainbow Schools, Shivpuri, M.P.",
+      "duration": "2019 — 2020"
     }
   ]
 }
