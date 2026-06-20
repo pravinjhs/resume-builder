@@ -39,7 +39,7 @@ Follow these step-by-step commands to get the project configured and running on 
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/pravinjhs/resume-builder.git](https://github.com/pravinjhs/resume-builder.git)
+git clone https://github.com/pravinjhs/resume-builder.git
 cd resume-builder
 npm install
 npm run dev
