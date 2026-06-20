@@ -12,6 +12,11 @@
     "address": "Shivpuri, MP India 473551"
   },
   "professionalSummary": "Senior Software Engineer with 12+ years of experience designing and delivering enterprise-grade web applications across customer identity, authentication, profile management, media, telecommunications, and smart-city platforms. Specialized in ReactJS, Next.js, TypeScript, Node.js, and modern frontend architecture with a strong focus on performance, accessibility, developer experience, and platform scalability. Experienced in leading cross-functional initiatives, mentoring engineers, and delivering secure, customer-facing solutions used by global audiences.",
+  "keyAchievements": [
+    "<strong>Led Frontend Architecture Modernization:</strong> Spearheaded the transition of legacy enterprise web platforms into highly scalable, modern architectures (React/Next.js), significantly reducing initial load times and boosting overall application performance.",
+    "<strong>Enforced Technical Governance & Mentorship:</strong> * Directed architectural design reviews, established rigorous testing and accessibility guidelines (WCAG compliance), and actively mentored mid-level and senior engineers to elevate engineering excellence.",
+    "<strong>Optimized State Management & Data Flow: </strong>Implemented robust state management standards utilizing tools like Redux Toolkit and managed complex data layers with GraphQL-based integrations and optimized RESTful APIs."
+  ],
   "technicalSkills": [
     {
       "category": "Frontend Architecture",
@@ -35,100 +40,6 @@
     }
   ],
   "professionalExperience": [
-    {
-      "company": "Ticketmaster India Private Limited, Gurugram",
-      "roles": "Senior Engineer 2",
-      "duration": "Mar 2020 — Jun 2026",
-      "projects": [
-        {
-          "title": "Global Identity, Authentication, User Profile Management, Customer & Clients Management Tool",
-          "bullets": [
-            "Designed scalable frontend foundations using ReactJS, Next.js, and TypeScript, establishing reusable micro frontend architectural patterns adopted across the engineering ecosystem.",
-            "Modernized 6+ legacy applications by migrating to Redux Toolkit and GraphQL integrations, reducing architectural complexity while improving viewport rendering performance and maintainability.",
-            "Engineered secure enterprise-scale identity and access management (IAM) features—including MFA, RBAC, and session provisioning—safeguarding authentication workflows for global customer volumes.",
-            "Drove WCAG accessibility compliance and enterprise localization initiatives using Transifex, enabling inclusive user experiences and multilingual support across international markets.",
-            "Collaborated with cross-functional teams to deliver scalable microservice-driven solutions, mentor engineers, conduct architecture reviews, and promote engineering best practices across the organization."
-          ],
-          "techStack": "ReactJS, TypeScript, JavaScript, Redux Toolkit, Express.js, GraphQL, Next.js, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, Splunk, AWS Infrastructure, Jenkins pipelines, PagerDuty."
-        }
-      ]
-    },
-    {
-      "company": "Orange Business Services, Gurugram",
-      "roles": "Senior Software Engineer",
-      "duration": "Aug 2018 — Mar 2020",
-      "projects": [
-        {
-          "title": "Live Data Hub Platform",
-          "bullets": [
-            "Developed data-driven smart-city platform modules enabling real-time analytics, operational monitoring, and administrative decision-making for municipal stakeholders.",
-            "Created a decoupled, reusable asynchronous File Upload framework element using Angular 7, increasing system processing speeds for voluminous data packages.",
-            "Optimized web elements utilizing strict performance scoring benchmarks, enhancing viewport rendering speeds and accessibility behaviors across responsive screen formats."
-          ],
-          "techStack": "Angular 2/4/7, TypeScript, JavaScript, HTML, CSS, Karma Runner, Webpack, Jenkins, CI/CD Pipelines."
-        }
-      ]
-    },
-    {
-      "company": "GlobalLogic India Pvt Ltd, Noida",
-      "roles": "Software Engineer",
-      "duration": "Sep 2016 — Aug 2018",
-      "projects": [
-        {
-          "title": "Ericsson - MediaKind MediaFirst Video Application",
-          "bullets": [
-            "Developed converged multiscreen ecosystem players linking Pay TV architectures with modern Over-The-Top (OTT) cross platform delivery models.",
-            "Designed standard viewing responsive frameworks tailored explicitly to Mobile, Desktop, and Smart TV platforms displays ensuring strict interaction alignment.",
-            "Re-engineered the cross-team UX Tool from architectural foundations to address deep layout lag; refactored the internal UI Component Selector engine to mimic Chrome Inspector native properties."
-          ]
-        },
-        {
-          "title": "Rodan + Fields - R + F Pulse",
-          "bullets": [
-            "It is a mobile-first digital business suite and web/mobile application designed for Brand Consultants.",
-            "Wrote performance-optimized Android and iOS views using React Native, incorporating deep phone modules such as hardware-integrated contacts, direct email client protocols, and calling hooks."
-          ],
-          "techStack": "Backbone.js, ReactJS, React Native, TypeScript, JavaScript, HTML, CSS, Webpack, Mocha, iOS/Android SDK wrappers."
-        }
-      ]
-    },
-    {
-      "company": "Mobiloitte Technologies, New Delhi",
-      "roles": "Associate Software Engineer",
-      "duration": "Dec 2014 — Sep 2016",
-      "projects": [
-        {
-          "title": "HD Supply Solutions Mobile Platform",
-          "bullets": [
-            "Integrated hardware barcode and laser scanning APIs directly into commercial MRO inventory management systems.",
-            "Coded algorithmic localized indexing filtering structures to feed instant autocomplete and context-aware product lookup modules."
-          ]
-        },
-        {
-          "title": "Secugo Security Community Framework",
-          "bullets": [
-            "Engineered localized public safety frameworks packing hardware-accelerated 3D Touch quick access menus, secure InApp purchases, and geofenced push notices via Google Maps APIs.",
-            "Crafted lightning-fast instant messaging rooms utilizing low-latency full-duplex WebSocket connections."
-          ],
-          "techStack": "AppCelerator, Titanium, JavaScript, TypeScript, React Native, RESTful API, JWT Token, Android Studio / Xcode environments."
-        }
-      ]
-    },
-    {
-      "company": "Mobiloitte Technologies, New Delhi",
-      "roles": "Trainee",
-      "duration": "Aug 2014 — Dec 2014",
-      "projects": [
-        {
-          "title": "Hybrid Mobile Application Development",
-          "bullets": [
-            "Developed cross-platform mobile applications using AppCelerator Titanium and Ionic frameworks, maintaining clean MVC architecture with JavaScript and AngularJS.",
-            "Integrated Google Maps APIs for geofenced push notifications and built interactive, low-latency messaging features using WebSockets."
-          ],
-          "techStack": "Cross Platform mobile application, AppCelerator, Titanium, MVC, JavaScript, Ionic Framework, AngularJS, Android and iOS mobile App."
-        }
-      ]
-    },
     {
       "company": "NIIT Limited, New Delhi",
       "roles": "Intern",
