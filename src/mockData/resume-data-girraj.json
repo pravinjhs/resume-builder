@@ -11,11 +11,11 @@
     "linkedin": "https://www.linkedin.com/in/girraj-agrawal-7506b6327/",
     "address": "Shivpuri, MP India 473551"
   },
-  "professionalSummary": "Enthusiastic and self-driven B.E. Computer Science graduate seeking a fresh role as an Associate Software Engineer or Software Engineer. Equipped with a solid understanding of software development principles, programming, and problem-solving, along with hands-on academic project experience. Adept at learning new technologies quickly, collaborating with teams, and contributing to the development of scalable and efficient software solutions. Looking for an opportunity to begin a professional career while adding value to organizational objectives and growing as a technology professional.",
+  "professionalSummary": "Enthusiastic and self driven B.E. Computer Science graduate seeking a fresh role as an Associate Software Engineer or Software Engineer. Equipped with a solid understanding of software development principles, programming, and problem solving, along with hands on academic project experience. Adept at learning new technologies quickly, collaborating with teams, and contributing to the development of scalable and efficient software solutions. Looking for an opportunity to begin a professional career while adding value to organizational objectives and growing as a technology professional.",
   "technicalSkills": [
     {
       "category": "Frontend Development",
-      "skills": "Applies dedicated knowledge to create responsive, user-focused interfaces utilizing HTML, CSS, and JavaScript."
+      "skills": "Applies dedicated knowledge to create responsive, user focused interfaces utilizing HTML, CSS, and JavaScript."
     },
     {
       "category": "Backend & Databases",
@@ -23,11 +23,11 @@
     },
     {
       "category": "B.E. Computer Science Graduate",
-      "skills": "Motivated and equipped with a strong foundation in building comprehensive, end-to-end software solutions"
+      "skills": "Motivated and equipped with a strong foundation in building comprehensive, end to end software solutions"
     },
     {
       "category": "Problem Solving & OOP",
-      "skills": "Leverages strong troubleshooting, debugging, and critical thinking abilities to write clean, Object-Oriented Programming (OOP) code."
+      "skills": "Leverages strong troubleshooting, debugging, and critical thinking abilities to write clean, Object Oriented Programming (OOP) code."
     },
     {
       "category": "Team Collaboration",
@@ -43,8 +43,8 @@
         {
           "title": "Web Component Development Using Core Java Technologies",
           "bullets": [
-            "Engineered backend web components and managed data structures using Core Java, ensuring clean object-oriented design and efficient execution.",
-            "Designed and consumed RESTful APIs to facilitate seamless data exchange between Java server modules and client-side applications."
+            "Engineered backend web components and managed data structures using Core Java, ensuring clean object oriented design and efficient execution.",
+            "Designed and consumed RESTful APIs to facilitate seamless data exchange between Java server modules and client side applications."
           ],
           "techStack": "Core Java, JavaScript, RESTful API, Android and iOS mobile App."
         }
@@ -53,17 +53,17 @@
   ],
   "education": [
     {
-      "degree": "Bachelor of Engineering, Computer Science & Engineering BE - (CSE)",
+      "degree": "Bachelor of Engineering, Computer Science & Engineering BE   (CSE)",
       "school": "Oriental Group of Institutes, Bhopal, M.P.",
       "duration": "2022 — 2026"
     },
     {
-      "degree": "12th, PCM - Grade A+",
+      "degree": "12th, Grade A+",
       "school": "Govt. Excellence School No. 1, Shivpuri, M.P.",
       "duration": "2021 — 2022"
     },
     {
-      "degree": "10th, PCM - Grade A+",
+      "degree": "10th,  Grade A+",
       "school": "Rangarh's Rainbow Schools, Shivpuri, M.P.",
       "duration": "2019 — 2020"
     }
