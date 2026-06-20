@@ -1,5 +1,6 @@
 import React, { useMemo, useEffect } from "react";
 import { Routes, Route, useSearchParams } from "react-router-dom";
+import type { Resume } from "./utills/ResumeFormat";
 import resumeDataPravin from "./mockData/resume-data-pravin.json";
 import resumeDataMegha from "./mockData/resume-data-megha.json";
 import { ExecutiveSummary } from "./components/ExecutiveSummary";
@@ -11,7 +12,7 @@ export const ResumeViewer: React.FC = () => {
   const [searchParams] = useSearchParams();
   const selectedProfile = searchParams.get("resume")?.toLowerCase();
 
-  const resumeData = useMemo(() => {
+  const resumeData: Resume = useMemo(() => {
     if (selectedProfile === "megha") {
       return resumeDataMegha;
     }
@@ -68,7 +69,7 @@ export const ResumeViewer: React.FC = () => {
                 paddingBottom: "4px",
               }}
             >
-              <strong>Phone:</strong> {resumeData.contact.phone}
+              <strong>Mobile:</strong> {resumeData.contact.mobile}
             </div>
             <div
               className="contact-item"
@@ -114,10 +115,12 @@ export const ResumeViewer: React.FC = () => {
 
       {/* Structured data flow distribution points */}
       <ExecutiveSummary text={resumeData.professionalSummary} />
-      <ExecutiveSummary
-        text={"KEY_ACHIEVEMENTS"}
-        bullets={resumeData.keyAchievements}
-      />
+      {resumeData.keyAchievements && (
+        <ExecutiveSummary
+          text={"KEY_ACHIEVEMENTS"}
+          bullets={resumeData.keyAchievements}
+        />
+      )}
       <CoreSkills skills={resumeData.technicalSkills} />
       <ProfessionalExperience jobs={resumeData.professionalExperience} />
       <Education educationHistory={resumeData.education} />
