@@ -19,6 +19,52 @@ interface ExperienceProps {
   jobs: Job[];
 }
 
+const getDuration = (dateRangeStr: string): string => {
+  const [startDateStr, endDateStr] = dateRangeStr.split(/\s*[\-\–\—]\s*/);
+
+  // Guard check to ensure splitting succeeded
+  if (!startDateStr || !endDateStr) {
+    return "0 mos";
+  }
+
+  let end: Date;
+
+  // Check if the end date is "Present" (case-insensitive)
+  if (endDateStr.trim().toLowerCase() === "present") {
+    end = new Date(); // Sets to the current actual date
+  } else {
+    end = new Date(endDateStr);
+  }
+
+  // Parse strings into Date objects
+  const start: Date = new Date(startDateStr);
+
+  // Calculate the total difference in months
+  let totalMonths: number =
+    (end.getFullYear() - start.getFullYear()) * 12 +
+    (end.getMonth() - start.getMonth()) +
+    1;
+
+  // Extract years and the remaining months
+  const years: number = Math.floor(totalMonths / 12);
+  const months: number = totalMonths % 12;
+
+  // Handle singular/plural formatting
+  const yearStr: string = years === 1 ? "yr" : "yrs";
+  const monthStr: string = months === 1 ? "mo" : "mos";
+
+  // Build the output string dynamically based on the values
+  if (years > 0 && months > 0) {
+    return `${years} ${yearStr} ${months} ${monthStr}`;
+  } else if (years > 0) {
+    return `${years} ${yearStr}`;
+  } else if (months > 0) {
+    return `${months} ${monthStr}`;
+  } else {
+    return "0 mos";
+  }
+};
+
 export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
   return (
     <section>
@@ -39,7 +85,7 @@ export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
                 display: "table-cell",
                 textAlign: "left",
                 verticalAlign: "bottom",
-                width: "75%",
+                width: "60%",
               }}
             >
               <span
@@ -70,10 +116,10 @@ export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
                 verticalAlign: "top",
                 color: "#64748b",
                 fontWeight: 500,
-                width: "25%",
+                width: "40%",
               }}
             >
-              {job.duration}
+              {job.duration} ({getDuration(job.duration)})
             </div>
           </div>
 
