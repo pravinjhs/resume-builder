@@ -3,6 +3,7 @@ import { Routes, Route, useSearchParams } from "react-router-dom";
 import type { Resume } from "./utills/ResumeFormat";
 import resumeDataPravin from "./mockData/resume-data-pravin.json";
 import resumeDataMegha from "./mockData/resume-data-megha.json";
+import resumeDataGirraj from "./mockData/resume-data-girraj.json";
 import { ExecutiveSummary } from "./components/ExecutiveSummary";
 import { CoreSkills } from "./components/CoreSkills";
 import { ProfessionalExperience } from "./components/ProfessionalExperience";
@@ -15,6 +16,8 @@ export const ResumeViewer: React.FC = () => {
   const resumeData: Resume = useMemo(() => {
     if (selectedProfile === "megha") {
       return resumeDataMegha;
+    } else if (selectedProfile === "girraj") {
+      return resumeDataGirraj;
     }
 
     return resumeDataPravin;
@@ -51,8 +54,11 @@ export const ResumeViewer: React.FC = () => {
           {resumeData.name}
         </h1>
         <div className="headline">
-          {resumeData.headline.title} || {resumeData.headline.subTitles} ||{" "}
-          {resumeData.headline.tagline}
+          {resumeData.headline.title}
+          {resumeData.headline.subTitles && (
+            <>|| resumeData.headline.subTitles</>
+          )}
+          {resumeData.headline.tagline && <>|| resumeData.headline.tagline</>}
         </div>
         <div
           className="contact-info"

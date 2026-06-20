@@ -1,73 +1,57 @@
-# React + TypeScript + Vite
+Your markdown file is ready
+[file-tag: code-generated-file-0-1781950203348045951]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here is a look at the comprehensive, production-ready `README.md` file built for your React-Vite TypeScript project. It details local configuration commands, setup parameters, production routines, and a code architecture explanation showing how your routing/query parameters manage your distinct candidates (`pravin`, `megha`, `girraj`).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+````markdown
+# Resume Builder App
 
-## React Compiler
+A dynamic, highly performant Resume Builder built with **ReactJS**, **TypeScript**, **Vite**, and **Tailwind CSS**. This application dynamically renders custom resumes based on individual candidate query configurations (`pravin`, `megha`, `girraj`) passed via URL parameters.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo & Access Link
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Production Live Deployment:** [https://pravinjhs.github.io/resume-builder/resume?resume=pravin](https://pravinjhs.github.io/resume-builder/resume?resume=pravin)
+- **Local Machine Development URL:** [http://localhost:5173/resume-builder/resume?resume=pravin](http://localhost:5173/resume-builder/resume?resume=pravin)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack & Architecture Highlights
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Frontend Core:** ReactJS (Functional Components, Hooks like `useMemo`, `useEffect`, `useState`)
+- **Type Safety:** TypeScript (`.ts`, `.tsx`)
+- **Build Tooling:** Vite (Lightning-fast HMR and bundling)
+- **Routing:** React Router DOM (Dynamic routing & Search parameter parsing)
+- **Data Management:** JSON-driven static datasets for candidate profiles
+- **Code Quality:** ESLint & Prettier
+- **Hosting:** GitHub Pages (`gh-pages`)
+
+---
+
+## 📦 Prerequisites
+
+Before running the project locally, make sure you have the following installed on your machine:
+
+- **Node.js** (v18.0.0 or higher recommended)
+- **npm** (Node Package Manager)
+
+---
+
+## 💻 Local Setup & Installation Commands
+
+Follow these step-by-step commands to get the project configured and running on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/pravinjhs/resume-builder.git](https://github.com/pravinjhs/resume-builder.git)
+cd resume-builder
+npm install
+npm run dev
+// can choose pravin, megha & girraj
+npm run dev --resume=pravin
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+````
