@@ -1,11 +1,3 @@
-Your markdown file is ready
-[file-tag: code-generated-file-0-1781950203348045951]
-
-Here is a look at the comprehensive, production-ready `README.md` file built for your React-Vite TypeScript project. It details local configuration commands, setup parameters, production routines, and a code architecture explanation showing how your routing/query parameters manage your distinct candidates (`pravin`, `megha`, `girraj`).
-
----
-
-````markdown
 # Resume Builder App
 
 A dynamic, highly performant Resume Builder built with **ReactJS**, **TypeScript**, **Vite**, and **Tailwind CSS**. This application dynamically renders custom resumes based on individual candidate query configurations (`pravin`, `megha`, `girraj`) passed via URL parameters.
@@ -54,4 +46,4 @@ npm run dev
 // can choose pravin, megha & girraj
 npm run dev --resume=pravin
 ```
-````
+
