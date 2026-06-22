@@ -56,9 +56,11 @@ export const ResumeViewer: React.FC = () => {
         <div className="headline">
           {resumeData.headline.title}
           {resumeData.headline.subTitles && (
-            <>|| resumeData.headline.subTitles</>
+            <> || {resumeData.headline.subTitles}</>
           )}
-          {resumeData.headline.tagline && <>|| resumeData.headline.tagline</>}
+          {resumeData.headline.tagline && (
+            <> || {resumeData.headline.tagline}</>
+          )}
         </div>
         <div
           className="contact-info"
