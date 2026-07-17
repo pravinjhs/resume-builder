@@ -53,7 +53,7 @@
             "I architect scalable, secure frontend foundations using React, Next.js, and GraphQL, modernizing legacy systems to dramatically boost application performance.",
             "As a collaborative lead, I drive enterprise IAM security, global accessibility, and localization while mentoring engineering teams across the organization."
           ],
-          "techStack": "ReactJS, TypeScript, JavaScript, Redux, Express.js, GraphQL, Next.js, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, GCP Cloud"
+          "techStack": "ReactJS, Next.js, GraphQL, TypeScript, JavaScript, Redux, Express.js, HTML5, CSS3, Figma, WCAG Standard, Github, JIRA, GCP Cloud"
         }
       ]
     },
@@ -132,7 +132,7 @@
             "Engineered localized public safety frameworks packing hardware-accelerated 3D Touch quick access menus, secure InApp purchases, and geofenced push notices via Google Maps APIs.",
             "Crafted lightning-fast instant messaging rooms utilizing low-latency full-duplex WebSocket connections."
           ],
-          "techStack": "AppCelerator, Titanium, JavaScript, TypeScript, React Native, RESTful API, JWT Token, Android Studio / Xcode environments."
+          "techStack": "Appcelerator, Titanium, JavaScript, TypeScript, React Native, RESTful API, JWT Token, Android Studio / Xcode environments."
         }
       ]
     }
