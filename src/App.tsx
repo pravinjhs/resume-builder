@@ -3,6 +3,7 @@ import { Routes, Route, useSearchParams } from "react-router-dom";
 import type { Resume } from "./utills/ResumeFormat";
 import resumeDataPravin from "./mockData/resume-data-pravin.json";
 import resumeDataMegha from "./mockData/resume-data-megha.json";
+import resumeDataSwati from "./mockData/resume-data-swati.json";
 import resumeDataGirraj from "./mockData/resume-data-girraj.json";
 import { ExecutiveSummary } from "./components/ExecutiveSummary";
 import { CoreSkills } from "./components/CoreSkills";
@@ -18,6 +19,8 @@ export const ResumeViewer: React.FC = () => {
       return resumeDataMegha;
     } else if (selectedProfile === "girraj") {
       return resumeDataGirraj;
+    } else if (selectedProfile === "swati") {
+      return resumeDataSwati;
     }
 
     return resumeDataPravin;
