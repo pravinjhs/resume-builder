@@ -1,0 +1,105 @@
+{
+  "name": "Swati Agrawal",
+  "headline": {
+    "title": "HR Analyst",
+    "subTitles": "Operations Analytics",
+    "tagline": ""
+  },
+  "contact": {
+    "mobile": "+91-9795360896",
+    "email": "swatiagr145@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/swati-agrawal145/",
+    "address": "Bhopal, MP India 462016"
+  },
+  "professionalSummary": "Analytical and detail-oriented HR Recruiter leveraging 1 year of combined experience in HR and Operations analytics. Proficient in candidate sourcing, metrics-driven talent acquisition, advanced Excel reporting, and process optimization. Adept at leveraging recruitment data to identify hiring trends, reduce time-to-hire, and build strong relationships with candidates and hiring managers.",
+  "technicalSkills": [
+    {
+      "category": "Data & Analytics",
+      "skills": "Advanced Excel (XLOOKUP, PivotTables), basic SQL, and data visualization tools like Power BI or Tableau for MIS and HR reporting."
+    },
+    {
+      "category": "Recruitment & HR Tech",
+      "skills": "Applicant Tracking Systems (ATS), HRIS platforms (Workday, Zoho), LinkedIn Recruiter, Naukri, and Boolean sourcing methods."
+    },
+    {
+      "category": "Process & Collaboration",
+      "skills": "Workflow mapping (MS Visio, Lucidchart), task management tools (Jira, Trello), and MS Office / Google Workspace for candidate coordination."
+    }
+  ],
+  "professionalExperience": [
+    {
+      "company": "Samagra Care - Diagnostic Centre & Multi-Speciality OPD, Bhopal",
+      "roles": "HR Analytics",
+      "duration": "Jun 2026 — Present",
+      "projects": [
+        {
+          "title": "HR and Recruitment",
+          "bullets": [
+            "Proactively search, attract, and build candidate pools through job portals, LinkedIn, referrals, and networking channels.",
+            "Review resumes, conduct preliminary phone screens, assess candidate fit, and schedule technical and managerial interviews.",
+            "Collaborate with hiring managers to define job requirements, maintain recruitment status reports, and update ATS records.",
+            "Manage salary negotiations, issue offer letters, facilitate background verification, and ensure smooth candidate onboarding."
+          ],
+          "techStack": "Data Analysis, HR Recruitment (Talent Acquisition), HR Reporting, IT Business Analysis, MIS Reporting, and Process Coordination."
+        }
+      ]
+    },
+    {
+      "company": "Katayani Organics, Bhopal",
+      "roles": "Operations Executive",
+      "duration": "Apr 2025 — Aug 2025",
+      "projects": [
+        {
+          "title": "Dispatch & Post-Dispatch Managment Team",
+          "bullets": [
+            "Managed end-to-end dispatch operations including shipment scheduling, transporter coordination, and delivery tracking.",
+            "Maintained dispatch records and prepared operational reports using Excel.",
+            "Coordinated with logistics partners to ensure timely deliveries and resolve dispatch issues.",
+            "Monitored post-dispatch activities and updated shipment status for internal teams and customers",
+            "Ensured accurate documentation and smooth coordination between warehouse, logistics partners, and internal departments."
+          ],
+          "techStack": "MS Excel, Power BI, Basic SQL, Data Cleaning Statistical Analysis, Data Visualization, Reporting & Dashboarding."
+        }
+      ]
+    },
+    {
+      "company": "Internship Project",
+      "roles": "Data Analyst",
+      "duration": "Jan 2025 — Jun 2025",
+      "projects": [
+        {
+          "title": "Sales Trend Forecasting Analysis",
+          "bullets": [
+            "Analyzed historical sales data to identify seasonal trends and demand patterns.",
+            "Used Excel and Python for data cleaning and visualization.",
+            "Provided insights to support better inventory planning and marketing strategies."
+          ]
+        },
+        {
+          "title": "Real Estate Market Analysis",
+          "bullets": [
+            "Conducted data-driven analysis of housing market trends.",
+            "Identified pricing patterns and demand-supply gaps using Excel, Python, and Power BI."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MBA – Data Analysis & Visualization",
+      "school": "LNCT College, Bhopal, M.P.",
+      "duration": "2023 — 2025"
+    },
+    {
+      "degree": "M.Sc. in Mathematics",
+      "school": "Bundelkhand University, Jhansi, U.P.",
+      "duration": "2014 — 2016"
+    },
+    {
+      "degree": "B.Sc. in Mathematics",
+      "school": "Bundelkhand University, Jhansi, U.P.",
+      "duration": "2011 — 2014"
+    }
+  ]
+}
