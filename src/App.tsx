@@ -5,6 +5,7 @@ import resumeDataPravin from "./mockData/resume-data-pravin.json";
 import resumeDataMegha from "./mockData/resume-data-megha.json";
 import resumeDataSwati from "./mockData/resume-data-swati.json";
 import resumeDataGirraj from "./mockData/resume-data-girraj.json";
+import resumeDataAngel from "./mockData/resume-data-angel.json";
 import { ExecutiveSummary } from "./components/ExecutiveSummary";
 import { CoreSkills } from "./components/CoreSkills";
 import { ProfessionalExperience } from "./components/ProfessionalExperience";
@@ -21,6 +22,9 @@ export const ResumeViewer: React.FC = () => {
       return resumeDataGirraj;
     } else if (selectedProfile === "swati") {
       return resumeDataSwati;
+    } else if (selectedProfile === "angel" || selectedProfile === "angle") {
+      // Accept both 'angel' and the requested 'angle' query value
+      return resumeDataAngel;
     }
 
     return resumeDataPravin;

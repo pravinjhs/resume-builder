@@ -1,0 +1,53 @@
+{
+  "name": "Angel Smith",
+  "headline": {
+    "title": "Software Engineer",
+    "subTitles": "Frontend Developer",
+    "tagline": "5+ Years Building Responsive Web Applications"
+  },
+  "contact": {
+    "mobile": "+1-555-123-4567",
+    "email": "angel.smith@example.com",
+    "linkedin": "https://www.linkedin.com/in/angelsmith/",
+    "address": "123 Maple Street, Springfield, USA"
+  },
+  "professionalSummary": "Passionate frontend engineer with experience in building accessible, high-performance web applications using React and TypeScript. Strong focus on component-driven design and testing.",
+  "keyAchievements": [
+    "<strong>Delivered Accessible UI:</strong> Implemented WCAG-compliant patterns that improved accessibility scores across multiple products.",
+    "<strong>Performance Improvements:</strong> Reduced initial load time by 40% through code-splitting and bundle optimization."
+  ],
+  "technicalSkills": [
+    {
+      "category": "Frontend",
+      "skills": "React, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Storybook"
+    },
+    {
+      "category": "Testing & Tools",
+      "skills": "Jest, React Testing Library, ESLint, Prettier, Webpack, Vite"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "company": "Acme Corp",
+      "roles": "Frontend Engineer",
+      "duration": "Jan 2022 — Present",
+      "projects": [
+        {
+          "title": "Marketing Platform",
+          "bullets": [
+            "Built reusable component library and design tokens powering 10+ product pages.",
+            "Collaborated with backend teams to integrate REST and GraphQL APIs."
+          ],
+          "techStack": "React, TypeScript, GraphQL, CSS Modules"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "State University",
+      "duration": "2015 — 2019"
+    }
+  ]
+}
