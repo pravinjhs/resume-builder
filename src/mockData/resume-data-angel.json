@@ -13,8 +13,9 @@
   },
   "professionalSummary": "Results-driven Database Administrator with hands-on experience supporting enterprise Big Data environments and Hadoop ecosystems for international clients. Skilled in database monitoring, performance tuning, user access management, and backup/recovery routines. Adept at troubleshooting production issues and ensuring high availability, security, and compliance for business-critical applications.",
   "keyAchievements": [
-    "<strong>Delivered Accessible UI:</strong> Implemented WCAG-compliant patterns that improved accessibility scores across multiple products.",
-    "<strong>Performance Improvements:</strong> Reduced initial load time by 40% through code-splitting and bundle optimization."
+    "<strong>Big Data & Hadoop Administration:</strong> Assisted in monitoring and maintaining Hadoop ecosystem components (Hadoop, Kafka, Cassandra, MySQL) to guarantee system reliability and high availability.",
+    "<strong>Database Maintenance & Security:</strong> Managed user permissions, implemented backup/recovery strategies, and enforced data governance and compliance standards.",
+    "<strong>Performance Tuning & Support:</strong> Collaborated with cross-functional teams to resolve production issues, optimize SQL/database queries, and streamline Big Data workflows."
   ],
   "technicalSkills": [
     {
@@ -31,22 +32,39 @@
     }
   ],
   "professionalExperience": [
-    {
-      "company": "Acme Corp",
-      "roles": "Frontend Engineer",
-      "duration": "Jan 2022 — Present",
-      "projects": [
-        {
-          "title": "Marketing Platform",
-          "bullets": [
-            "Built reusable component library and design tokens powering 10+ product pages.",
-            "Collaborated with backend teams to integrate REST and GraphQL APIs."
-          ],
-          "techStack": "React, TypeScript, GraphQL, CSS Modules"
-        }
-      ]
-    }
-  ],
+  {
+    "company": "Cogent E-Services Ltd.",
+    "roles": "Technical Support Executive",
+    "duration": "Jun 2025 — May 2026",
+    "projects": [
+      {
+        "title": "Technical & Database Support",
+        "bullets": [
+          "Supported enterprise Big Data environments and Hadoop ecosystems for Canadian clients.",
+          "Monitored and maintained Hadoop ecosystem components including Hadoop, Kafka, Cassandra, and MySQL to ensure high availability.",
+          "Managed user permissions, backup/recovery routines, and database security compliance.",
+          "Collaborated with cross-functional teams to troubleshoot production issues and optimize system workflows."
+        ],
+        "techStack": "Hadoop, Apache Kafka, Cassandra, MySQL, Linux"
+      }
+    ]
+  },
+  {
+    "company": "GK Heritage School, Shivpuri (M.P)",
+    "roles": "Computer Operator",
+    "duration": "Apr 2023 — May 2024",
+    "projects": [
+      {
+        "title": "IT Operations & Scripting Support",
+        "bullets": [
+          "Managed daily technical operations including document formatting, system updates, and administrative workflow support.",
+          "Designed and customized automation scripts to streamline internal processes and improve efficiency."
+        ],
+        "techStack": "SQL, Shell Scripting, MS Office, Windows"
+      }
+    ]
+  }
+],
   "education": [
     {
       "degree": "MCA: Master of Computer Applications",
