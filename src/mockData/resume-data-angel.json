@@ -1,22 +1,26 @@
 {
-  "name": "Angel Smith",
+  "name": "Angel Agrawal",
   "headline": {
-    "title": "Software Engineer",
-    "subTitles": "Frontend Developer",
-    "tagline": "5+ Years Building Responsive Web Applications"
+    "title": "Database Administrator",
+    "subTitles": "Technical Support",
+    "tagline": "1.3+ Years waorking IT expirence as a database administrator"
   },
   "contact": {
-    "mobile": "+1-555-123-4567",
-    "email": "angel.smith@example.com",
-    "linkedin": "https://www.linkedin.com/in/angelsmith/",
-    "address": "123 Maple Street, Springfield, USA"
+    "mobile": "+91-6265523421",
+    "email": "agrawalangel194@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/angel-agrawal-990222247",
+    "address": "Sector 62, Noida 201301"
   },
-  "professionalSummary": "Passionate frontend engineer with experience in building accessible, high-performance web applications using React and TypeScript. Strong focus on component-driven design and testing.",
+  "professionalSummary": "Results-driven Database Administrator with hands-on experience supporting enterprise Big Data environments and Hadoop ecosystems for international clients. Skilled in database monitoring, performance tuning, user access management, and backup/recovery routines. Adept at troubleshooting production issues and ensuring high availability, security, and compliance for business-critical applications.",
   "keyAchievements": [
     "<strong>Delivered Accessible UI:</strong> Implemented WCAG-compliant patterns that improved accessibility scores across multiple products.",
     "<strong>Performance Improvements:</strong> Reduced initial load time by 40% through code-splitting and bundle optimization."
   ],
   "technicalSkills": [
+    {
+      "category": "Database and tools",
+      "skills": "Apache kafka, Hadoop, My-SQL, Casandra"
+    },
     {
       "category": "Frontend",
       "skills": "React, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Storybook"
@@ -45,9 +49,24 @@
   ],
   "education": [
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "school": "State University",
-      "duration": "2015 — 2019"
+      "degree": "MCA: Master of Computer Applications",
+      "school": "Lakshmi Narain College Of Technology University, Bhopal",
+      "duration": "2023 — 2025"
+    },
+    {
+      "degree": "BCA: Bachelor of Computer Applications",
+      "school": "Makhanlal Chaturvedi University, Bhopal",
+      "duration": "2019 — 2022"
+    },
+    {
+      "degree": "12th Higher Secondary",
+      "school": "MP State Board",
+      "duration": "2018 — 2019"
+    },
+    {
+      "degree": "10th High School",
+      "school": "MP State Board",
+      "duration": "2016 — 2017"
     }
   ]
 }
