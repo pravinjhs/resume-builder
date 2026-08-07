@@ -20,7 +20,7 @@
   "technicalSkills": [
     {
       "category": "Database and tools",
-      "skills": "Apache kafka, Hadoop, My-SQL, Casandra"
+      "skills": "Apache, kafka, Hadoop, My-SQL, Casandra"
     },
     {
       "category": "Frontend",
@@ -45,7 +45,7 @@
             "Analyze and optimize SQL queries, indices, and database workflows to minimize latency and improve execution efficiency.",
             "Collaborate with cross-functional technical teams to troubleshoot production database issues, identify bottlenecks, and maintain security compliance."
           ],
-          "techStack": "Apache kafka, Hadoop, My-SQL, Casandra, PostgreSQL, SQL, Database Administration, Backup & Recovery, Performance Tuning, Linux"
+          "techStack": "Apache, kafka, Hadoop, My-SQL, Casandra, PostgreSQL, SQL, Database Administration, Backup & Recovery, Performance Tuning, Linux"
         }
       ]
   },
