@@ -3,7 +3,7 @@
   "headline": {
     "title": "Architect",
     "subTitles": "Frontend Engineering Lead",
-    "tagline": "12+ Years Building Enterprise Web Applications"
+    "tagline": "11+ Years Building Enterprise Web Applications"
   },
   "contact": {
     "mobile": "+91-9873648928",
@@ -11,18 +11,18 @@
     "linkedin": "https://www.linkedin.com/in/pravinjhs/",
     "address": "B59 Swastik City, Oppo St Judge School, Jhansi Uttar Pradesh India 284001"
   },
-  "professionalSummary": "Architect with 12+ years of experience designing and delivering enterprise-grade web applications across customer identity, authentication, profile management, media, tel[...]",
+  "professionalSummary": "Architect with 11+ years of experience designing and delivering enterprise-grade web applications across customer identity, authentication, profile management, media, telecommunications, and smart-city platforms. Specialized in ReactJS, Next.js, TypeScript, Node.js, and modern frontend architecture with a strong focus on performance, accessibility, developer experience, and platform scalability. Experienced in leading cross-functional initiatives, mentoring engineers, and delivering secure, customer-facing solutions used by global audiences.",
   "keyAchievements": [
-    "<strong>Led Frontend Architecture Modernization:</strong> Spearheaded the transition of legacy enterprise web platforms into highly scalable, modern architectures (React/Next.js), significant[...]",
-    "<strong>Established Reusable Patterns & Systems:</strong> Designed and enforced reusable frontend component architecture and design system patterns adopted across multiple product teams, ensu[...]",
-    "<strong>Championed Code Quality & Debugging Standards:</strong> Formulated advanced troubleshooting, profiling, and debugging workflows that cut system-critical runtime exceptions and expedit[...]",
-    "<strong>Enforced Technical Governance & Mentorship:</strong> * Directed architectural design reviews, established rigorous testing and accessibility guidelines (WCAG compliance), and actively[...]",
-    "<strong>Optimized State Management & Data Flow: </strong>Implemented robust state management standards utilizing tools like Redux Toolkit and managed complex data layers with GraphQL-based in[...]
+    "<strong>Led Frontend Architecture Modernization:</strong> Spearheaded the transition of legacy enterprise web platforms into highly scalable, modern architectures (React/Next.js), significantly reducing initial load times and boosting overall application performance.",
+    "<strong>Established Reusable Patterns & Systems:</strong> Designed and enforced reusable frontend component architecture and design system patterns adopted across multiple product teams, ensuring strict visual and structural consistency.",
+    "<strong>Championed Code Quality & Debugging Standards:</strong> Formulated advanced troubleshooting, profiling, and debugging workflows that cut system-critical runtime exceptions and expedited cross-team issue resolution.",
+    "<strong>Enforced Technical Governance & Mentorship:</strong> * Directed architectural design reviews, established rigorous testing and accessibility guidelines (WCAG compliance), and actively mentored mid-level and senior engineers to elevate engineering excellence.",
+    "<strong>Optimized State Management & Data Flow: </strong>Implemented robust state management standards utilizing tools like Redux Toolkit and managed complex data layers with GraphQL-based integrations and optimized RESTful APIs."
   ],
   "technicalSkills": [
     {
       "category": "Frontend Architecture",
-      "skills": "ReactJS, TypeScript, JavaScript (ES6+), Next.js, State Management (Redux Toolkit, Zustand), HTML5, CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR,[...]"
+      "skills": "ReactJS, TypeScript, JavaScript (ES6+), Next.js, State Management (Redux Toolkit, Zustand), HTML5, CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR, SSG, ISR"
     },
     {
       "category": "Backend & Cloud APIs",
@@ -34,11 +34,11 @@
     },
     {
       "category": "DevOps & Observability",
-      "skills": "AWS, Jenkins, GitLab CI/CD Pipelines, Docker, Logging & Monitoring (Splunk, Datadog, Kibana), PagerDuty Incident Management"
+      "skills": "AWS, GCP, Jenkins, GitLab CI/CD Pipelines, Docker, Logging & Monitoring (Splunk, Datadog, Kibana), PagerDuty Incident Management"
     },
     {
       "category": "UI/UX & Core Practices",
-      "skills": "WCAG 2.1 Accessibility Compliance, Figma, Storybook, Localization Management (Transifex), Responsive UI Design, Performance Optimization, Code Reviews, Technical Leadership, Mento[...]"
+      "skills": "WCAG 2.1 Accessibility Compliance, Figma, Storybook, Localization Management (Transifex), Responsive UI Design, Performance Optimization, Code Reviews, Technical Leadership, Mentoring, Cross-functional Collaboration"
     },
     {
       "category": "Testing & Methodologies",
@@ -78,12 +78,12 @@
           "title": "Global Identity, Authentication, User Profile Management, Customer & Clients Management Tool",
           "bullets": [
             "Designed scalable frontend foundations using ReactJS, Next.js, and TypeScript, establishing reusable micro frontend architectural patterns adopted across the engineering ecosystem.",
-            "Modernized 6+ legacy applications by migrating to Redux Toolkit and GraphQL integrations, reducing architectural complexity while improving viewport rendering performance and maintain[...]",
-            "Engineered secure enterprise-scale identity and access management (IAM) features—including MFA, RBAC, and session provisioning—safeguarding authentication workflows for global cus[...]",
-            "Drove WCAG accessibility compliance and enterprise localization initiatives using Transifex, enabling inclusive user experiences and multilingual support across international markets.[...]",
-            "Collaborated with cross-functional teams to deliver scalable microservice-driven solutions, mentor engineers, conduct architecture reviews, and promote engineering best practices acro[...]
+            "Modernized 6+ legacy applications by migrating to Redux Toolkit and GraphQL integrations, reducing architectural complexity while improving viewport rendering performance and maintainability.",
+            "Engineered secure enterprise-scale identity and access management (IAM) features—including MFA, RBAC, and session provisioning—safeguarding authentication workflows for global customer volumes.",
+            "Drove WCAG accessibility compliance and enterprise localization initiatives using Transifex, enabling inclusive user experiences and multilingual support across international markets.",
+            "Collaborated with cross-functional teams to deliver scalable microservice-driven solutions, mentor engineers, conduct architecture reviews, and promote engineering best practices across the organization."
           ],
-          "techStack": "ReactJS, TypeScript, JavaScript, Redux Toolkit, Express.js, GraphQL, Next.js, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, Splunk, AWS Infrastructure, Jenkins pipel[...][...]"
+          "techStack": "ReactJS, TypeScript, JavaScript, Redux Toolkit, Express.js, GraphQL, Next.js, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, Splunk, AWS Infrastructure, Jenkins pipelines, PagerDuty."
         }
       ]
     },
@@ -113,14 +113,14 @@
           "bullets": [
             "Developed converged multiscreen ecosystem players linking Pay TV architectures with modern Over-The-Top (OTT) cross platform delivery models.",
             "Designed standard viewing responsive frameworks tailored explicitly to Mobile, Desktop, and Smart TV platforms displays ensuring strict interaction alignment.",
-            "Re-engineered the cross-team UX Tool from architectural foundations to address deep layout lag; refactored the internal UI Component Selector engine to mimic Chrome Inspector native prope[...]
+            "Re-engineered the cross-team UX Tool from architectural foundations to address deep layout lag; refactored the internal UI Component Selector engine to mimic Chrome Inspector native properties."
           ]
         },
         {
           "title": "Rodan + Fields - R + F Pulse",
           "bullets": [
             "It is a mobile-first digital business suite and web/mobile application designed for Brand Consultants.",
-            "Wrote performance-optimized Android and iOS views using React Native, incorporating deep phone modules such as hardware-integrated contacts, direct email client protocols, and callin[...]
+            "Wrote performance-optimized Android and iOS views using React Native, incorporating deep phone modules such as hardware-integrated contacts, direct email client protocols, and calling hooks."
           ],
           "techStack": "Backbone.js, ReactJS, React Native, TypeScript, JavaScript, HTML, CSS, Webpack, Mocha, iOS/Android SDK wrappers."
         }
@@ -162,3 +162,4 @@
     }
   ]
 }
+
