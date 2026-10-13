@@ -60,12 +60,16 @@
       "duration": "Jun 2026 — Present",
       "projects": [
         {
-          "title": "E-commerce Project",
+          "title": "Wayfair - E-commerce Project",
           "bullets": [
-            "I architect scalable, secure frontend foundations using React, Next.js, and GraphQL, modernizing legacy systems to dramatically boost application performance.",
-            "As a collaborative lead, I drive enterprise IAM security, global accessibility, and localization while mentoring engineering teams across the organization."
+            "<strong>User Journey:</strong> Design seamless quote creation across tabs while preserving selected items and project context.",
+            "<strong>UI Architecture:</strong> Build reusable React components (sf-ui-web) for item selection, filters, conflict handling, and quote views.",
+            "<strong>API Integration:</strong> Manage GraphQL contracts and map all UI states (loading, success, error) to the backend quote service.",
+            "<strong>Project Context:</strong> Ensure quotes remain linked to project collections and update status natively in the UI.",
+            "<strong>Sales Boundaries:</strong> Clearly distinguish self-service limits (locks pricing, doesn't reserve inventory) from sales-assisted custom paths.",
+            "<strong>Quality & Rollout:</strong> Deliver responsive layouts, localized inputs, behavioral testing, and a configurable feature kill switch."
           ],
-          "techStack": "ReactJS, Next.js, GraphQL, TypeScript, JavaScript, Redux, Express.js, HTML5, CSS3, Figma, WCAG Standard, Github, JIRA, GCP Cloud"
+          "techStack": "ReactJS, Next.js, GraphQL, TypeScript, JavaScript, Redux, HTML5, CSS3, Figma, WCAG Standard, Github, JIRA, GCP Cloud"
         }
       ]
     },
