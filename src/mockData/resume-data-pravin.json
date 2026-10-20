@@ -27,7 +27,7 @@
     },
     {
       "category": "Backend & Cloud APIs",
-      "skills": "Node.js, Express.js, GraphQL, REST APIs, Core Java, Spring Boot (Basics)"
+      "skills": "Node.js, Express.js, Java, GraphQL, REST APIs, Spring Boot (Basics)"
     },
     {
       "category": "Testing & Build Tools",
@@ -47,7 +47,7 @@
     },
     {
       "category": "Databases",
-      "skills": "Elasticsearch, AWS DynamoDB, NoSQL"
+      "skills": "Elasticsearch, AWS DynamoDB, NoSQL, MongoDB"
     },
     {
       "category": "Domain Experience",
