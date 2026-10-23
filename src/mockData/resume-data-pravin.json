@@ -64,8 +64,8 @@
           "title": "Wayfair - E-commerce Project",
           "bullets": [
             "<strong>User Journey:</strong> Design seamless quote creation across tabs while preserving selected items and project context.",
-            "<strong>UI Architecture:</strong> Build reusable React components (sf-ui-web) for item selection, filters, conflict handling, and quote views.",
-            "<strong>API Integration:</strong> Manage GraphQL contracts and map all UI states (loading, success, error) to the backend quote service.",
+            "<strong>UI Architecture:</strong> Build reusable React components (sf-ui-web) using semantic HTML5 and CSS3 for item selection, filters, conflict handling, and quote views.",
+            "<strong>API Integration:</strong> Integrated GraphQL APIs and map all UI states (loading, success, error) to the backend quote service.",
             "<strong>Project Context:</strong> Ensure quotes remain linked to project collections and update status natively in the UI.",
             "<strong>Sales Boundaries:</strong> Clearly distinguish self-service limits (locks pricing, doesn't reserve inventory) from sales-assisted custom paths.",
             "<strong>Quality & Rollout:</strong> Deliver responsive layouts, localized inputs, behavioral testing, and a configurable feature kill switch."
@@ -82,10 +82,10 @@
         {
           "title": "Global Identity, Authentication, User Profile Management, Customer & Clients Management Tool",
           "bullets": [
-            "Designed scalable frontend foundations using ReactJS, Next.js, and TypeScript, establishing reusable micro frontend architectural patterns adopted across the engineering ecosystem.",
-            "Modernized 6+ legacy applications by migrating to Redux Toolkit and GraphQL integrations, reducing architectural complexity while improving viewport rendering performance and maintainability.",
+            "Designed scalable frontend foundations using React, Next.js, and TypeScript, establishing reusable micro frontend architectural patterns adopted across the engineering ecosystem.",
+            "Modernized 6+ legacy applications by migrating to Redux Toolkit state management and GraphQL integrations, reducing architectural complexity while improving viewport rendering performance and maintainability.",
             "Engineered secure enterprise-scale identity and access management (IAM) features—including MFA, RBAC, and session provisioning—safeguarding authentication workflows for global customer volumes.",
-            "Drove WCAG accessibility compliance and enterprise localization initiatives using Transifex, enabling inclusive user experiences and multilingual support across international markets.",
+            "Drove compliance with WCAG accessibility standards and enterprise localization initiatives using Transifex, enabling inclusive user experiences and multilingual support across international markets.",
             "Collaborated with cross-functional teams to deliver scalable microservice-driven solutions, mentor engineers, conduct architecture reviews, and promote engineering best practices across the organization."
           ],
           "techStack": "ReactJS, TypeScript, JavaScript, Redux Toolkit, Express.js, GraphQL, Next.js, HTML, CSS, Figma, WCAG Standard, GitLab CI/CD, JIRA, Splunk, AWS Infrastructure, Jenkins pipelines, PagerDuty."
