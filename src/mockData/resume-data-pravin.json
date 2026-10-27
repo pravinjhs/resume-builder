@@ -24,27 +24,23 @@
   "technicalSkills": [
     {
       "category": "Frontend Architecture",
-      "skills": "ReactJS, TypeScript, JavaScript (ES6+), Next.js, State Management (Redux Toolkit, Zustand), HTML5, CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR, SSG, ISR"
+      "skills": "React JS, TypeScript, JavaScript (ES6+), Next.js, State Management (Redux Toolkit, Zustand), HTML5, CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR, SSG, ISR"
     },
     {
       "category": "Backend & Cloud APIs",
       "skills": "Node.js, Express.js, Java, GraphQL, REST APIs, Spring Boot (Basics)"
     },
     {
-      "category": "Testing & Build Tools",
-      "skills": "Jest, Mocha, Karma, Webpack, Vite, Rollup"
+      "category": "Testing, Build Tools & Methodologies",
+      "skills": "React Testing Library, Jest, Mocha, Karma, Webpack, Vite, Rollup, Test-Driven Development (TDD), Behavior-Driven Development (BDD)"
     },
     {
       "category": "DevOps & Observability",
-      "skills": "AWS, GCP, Jenkins, GitLab CI/CD Pipelines, Docker, Logging & Monitoring (Splunk, Datadog, Kibana), PagerDuty Incident Management"
+      "skills": "AWS, GCP, Jenkins, Git, GitLab CI/CD Pipelines, Docker, Logging & Monitoring (Splunk, Datadog, Kibana), PagerDuty Incident Management"
     },
     {
       "category": "UI/UX & Core Practices",
-      "skills": "WCAG 2.1 Accessibility Compliance, Figma, Storybook, Localization Management (Transifex), Responsive UI Design, Performance Optimization, Code Reviews, Technical Leadership, Mentoring, Cross-functional Collaboration"
-    },
-    {
-      "category": "Testing & Methodologies",
-      "skills": "Test-Driven Development (TDD), Behavior-Driven Development (BDD)"
+      "skills": "WCAG 2.1 Accessibility Compliance, Figma, Storybook, Localization Management (Transifex), Performance Optimization, Code Reviews, Technical Leadership, Mentoring, Cross-functional Collaboration"
     },
     {
       "category": "Databases",
