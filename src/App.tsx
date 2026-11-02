@@ -11,9 +11,36 @@ import { CoreSkills } from "./components/CoreSkills";
 import { ProfessionalExperience } from "./components/ProfessionalExperience";
 import { Education } from "./components/Education";
 
+const setMeta = (name: string, content: string, attr = "name") => {
+  let tag = document.querySelector(`meta[${attr}="${name}"]`) as HTMLMetaElement | null;
+
+  if (!tag) {
+    tag = document.createElement("meta");
+    tag.setAttribute(attr, name);
+    document.head.appendChild(tag);
+  }
+
+  tag.setAttribute("content", content);
+};
+
+const setJsonLd = (data: Record<string, any>) => {
+  let script = document.querySelector(
+    'script[data-seo="resume-schema"]'
+  ) as HTMLScriptElement | null;
+
+  if (!script) {
+    script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.setAttribute("data-seo", "resume-schema");
+    document.head.appendChild(script);
+  }
+
+  script.textContent = JSON.stringify(data);
+};
+
 export const ResumeViewer: React.FC = () => {
   const [searchParams] = useSearchParams();
-  const selectedProfile = searchParams.get("resume")?.toLowerCase();
+  const selectedProfile = searchParams.get("resume")?.toLowerCase() || "pravin";
 
   const resumeData: Resume = useMemo(() => {
     if (selectedProfile === "megha") {
@@ -23,7 +50,6 @@ export const ResumeViewer: React.FC = () => {
     } else if (selectedProfile === "swati") {
       return resumeDataSwati;
     } else if (selectedProfile === "angel" || selectedProfile === "angle") {
-      // Accept both 'angel' and the requested 'angle' query value
       return resumeDataAngel;
     }
 
@@ -31,15 +57,62 @@ export const ResumeViewer: React.FC = () => {
   }, [selectedProfile]);
 
   useEffect(() => {
-    // Calculate current DD-MM string dynamically
-    const today = new Date();
-    const dd = String(today.getDate()).padStart(2, "0");
-    const mm = String(today.getMonth() + 1).padStart(2, "0"); // Months are 0-indexed
-    const dateStr = `${dd}-${mm}`;
+    const personName = resumeData.name;
+    const headline = [
+      resumeData.headline.title,
+      resumeData.headline.subTitles,
+      resumeData.headline.tagline,
+    ]
+      .filter(Boolean)
+      .join(" | ");
 
-    // Update browser tab string property
-    document.title = `${selectedProfile}-resume-${dateStr}`;
-  }, [selectedProfile]);
+    const pageTitle = `${personName} | ${headline}`;
+    const description = `${personName} resume, ${headline}. ${resumeData.professionalSummary.slice(
+      0,
+      180
+    )}...`;
+
+    document.title = pageTitle;
+    setMeta("description", description);
+    setMeta("robots", "index,follow,max-image-preview:large");
+    setMeta("author", personName);
+
+    const canonicalUrl = `https://pravinjhs.github.io/resume-builder/resume?resume=${selectedProfile}`;
+    setMeta("canonical", canonicalUrl, "rel");
+    setMeta("og:title", pageTitle, "property");
+    setMeta("og:description", description, "property");
+    setMeta("og:url", canonicalUrl, "property");
+    setMeta("twitter:title", pageTitle, "name");
+    setMeta("twitter:description", description, "name");
+
+    const profileSkills = resumeData.technicalSkills.flatMap((item) =>
+      item.skills.split(",").map((skill) => skill.trim())
+    );
+
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: personName,
+      jobTitle: resumeData.headline.title,
+      description,
+      email: resumeData.contact.email,
+      telephone: resumeData.contact.mobile,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: resumeData.contact.address,
+        addressCountry: "IN",
+      },
+      sameAs: [resumeData.contact.linkedin],
+      knowsAbout: profileSkills.slice(0, 50),
+      hasOccupation: {
+        "@type": "Occupation",
+        name: resumeData.headline.title,
+        description: headline,
+      },
+    };
+
+    setJsonLd(schema);
+  }, [resumeData, selectedProfile]);
 
   return (
     <div className="main-container">
@@ -128,7 +201,6 @@ export const ResumeViewer: React.FC = () => {
         </div>
       </div>
 
-      {/* Structured data flow distribution points */}
       <ExecutiveSummary text={resumeData.professionalSummary} />
       {resumeData.keyAchievements && (
         <ExecutiveSummary
@@ -143,7 +215,6 @@ export const ResumeViewer: React.FC = () => {
   );
 };
 
-// 2. Clean Fallback 404 Layout Component
 const NotFound: React.FC = () => {
   return (
     <div
@@ -159,7 +230,6 @@ const NotFound: React.FC = () => {
   );
 };
 
-// 3. Main Routing Application Entry Controller
 export const App: React.FC = () => {
   return (
     <Routes>
