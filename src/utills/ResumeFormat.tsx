@@ -4,6 +4,7 @@ export interface Resume {
   contact: Contact;
   professionalSummary: string;
   keyAchievements?: string[];
+  architectureAndLeadershipStrengths?: string[];
   technicalSkills: TechnicalSkill[];
   professionalExperience: ProfessionalExperience[];
   education: Education[];
