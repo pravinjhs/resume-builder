@@ -24,7 +24,7 @@
   "technicalSkills": [
     {
       "category": "Frontend Architecture",
-      "skills": "React JS, TypeScript, Advanced JavaScript, State Management(Redux Toolkit, Zustand), HTML5, CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR, SSG, ISR"
+      "skills": "React JS, TypeScript, JavaScript, State Management(Redux Toolkit, Zustand), HTML5/CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR, SSG, ISR"
     },
     {
       "category": "Backend & Cloud APIs",
