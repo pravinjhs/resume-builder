@@ -60,12 +60,11 @@
         {
           "title": "Wayfair - E-commerce Project",
           "bullets": [
-            "<strong>User Journey:</strong> Design seamless quote creation across tabs while preserving selected items and project context.",
-            "<strong>UI Architecture:</strong> Build reusable React components (sf-ui-web) using semantic HTML5 and CSS3 for item selection, filters, conflict handling, and quote views.",
-            "<strong>API Integration:</strong> Integrated GraphQL APIs and map all UI states (loading, success, error) to the backend quote service.",
-            "<strong>Project Context:</strong> Ensure quotes remain linked to project collections and update status natively in the UI.",
-            "<strong>Sales Boundaries:</strong> Clearly distinguish self-service limits (locks pricing, doesn't reserve inventory) from sales-assisted custom paths.",
-            "<strong>Quality & Rollout:</strong> Deliver responsive layouts, localized inputs, behavioral testing, and a configurable feature kill switch."
+            "<strong>Customer Self-Serve Quote Creation:</strong> Built a multi-step quote generation wizard in React and TypeScript that consolidates item selection, validation, and retry workflows into a single orchestrated GraphQL mutation, scaling smoothly to 500-item project lists within a 5-second target.",
+            "<strong>Asynchronous Polling & Idempotent Recovery:</strong> Implemented resilient status-polling and deterministic retry handling to reconcile asynchronous quote creation, safely managing unpurchased item cloning, partial order splits, and transient errors without generating duplicate quotes.",
+            "<strong>Federated GraphQL & Graceful Degradation:</strong> Integrated batched active-quote indicators onto project item cards via federated GraphQL subgraphs, designing secondary item surfaces to fail open during downstream latency while surfacing actionable retry states on quote-primary views.",
+            "<strong>Direct-to-Collection & Shared UI Architecture:</strong> Developed a two-step Project and Collection picker workflow to streamline multi-collection item saving while eliminating duplicate UI maintenance through shared quote card components, core design system primitives, and full localization support.",
+            "<strong>Agent Co-Browse Integration & Safe Rollouts:</strong> Enabled agent-assisted quote creation via a secure cross-window messaging bridge between embedded storefront views and internal sales panels, executing zero-downtime production rollouts using dual-layer feature flags and persisted GraphQL operations."
           ],
           "techStack": "ReactJS, Next.js, GraphQL, TypeScript, JavaScript, Redux, HTML5, CSS3, Figma, Github, JIRA, GCP Cloud, Scribe Events tracking,"
         }
