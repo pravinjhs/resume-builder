@@ -212,10 +212,9 @@ export const ResumeViewer: React.FC = () => {
       {resumeData.architectureAndLeadershipStrengths && (
         <ArchitectureStrengths
           text={"ARCHITECTURE_LEADERSHIP_STRENGTHS"}
-          bullets={resumeData.architectureAndLeadershipStrengths}
+          architectureAndLeadershipStrengths={resumeData.architectureAndLeadershipStrengths}
         />
       )}
-      ARCHITECTURE_LEADERSHIP_STRENGTHS
       <CoreSkills skills={resumeData.technicalSkills} />
       <ProfessionalExperience jobs={resumeData.professionalExperience} />
       <Education educationHistory={resumeData.education} />
