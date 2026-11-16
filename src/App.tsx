@@ -10,6 +10,7 @@ import { ExecutiveSummary } from "./components/ExecutiveSummary";
 import { CoreSkills } from "./components/CoreSkills";
 import { ProfessionalExperience } from "./components/ProfessionalExperience";
 import { Education } from "./components/Education";
+import { ArchitectureStrengths } from "./components/ArchitectureStrengths";
 
 const setMeta = (name: string, content: string, attr = "name") => {
   let tag = document.querySelector(`meta[${attr}="${name}"]`) as HTMLMetaElement | null;
@@ -204,10 +205,17 @@ export const ResumeViewer: React.FC = () => {
       <ExecutiveSummary text={resumeData.professionalSummary} />
       {resumeData.keyAchievements && (
         <ExecutiveSummary
-          text={"ARCHITECTURE_LEADERSHIP_STRENGTHS"}
+          text={"KEY_ACHIEVEMENTS"}
           bullets={resumeData.keyAchievements}
         />
       )}
+      {resumeData.architectureAndLeadershipStrengths && (
+        <ArchitectureStrengths
+          text={"ARCHITECTURE_LEADERSHIP_STRENGTHS"}
+          bullets={resumeData.architectureAndLeadershipStrengths}
+        />
+      )}
+      ARCHITECTURE_LEADERSHIP_STRENGTHS
       <CoreSkills skills={resumeData.technicalSkills} />
       <ProfessionalExperience jobs={resumeData.professionalExperience} />
       <Education educationHistory={resumeData.education} />
