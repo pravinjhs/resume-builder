@@ -10,7 +10,7 @@ export const ArchitectureStrengths: React.FC<ArchitectureStrengthsProps> = ({
 }) => {
   return (
     <section className="strengths-section">
-      <SectionHeader title="Core Technical Skills" />
+      <SectionHeader title="Architecture & Leadership Strengths" />
       <ul className="strengths-grid">
         {architectureAndLeadershipStrengths.map((item, index) => (
           <li key={index} className="strengths-cell">
