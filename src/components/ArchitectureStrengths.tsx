@@ -1,4 +1,5 @@
 import React from "react";
+import { SectionHeader } from "./SectionHeader";
 
 interface ArchitectureStrengthsProps {
   architectureAndLeadershipStrengths: string[];
@@ -9,7 +10,7 @@ export const ArchitectureStrengths: React.FC<ArchitectureStrengthsProps> = ({
 }) => {
   return (
     <section className="strengths-section">
-      <h2 className="strengths-heading">ARCHITECTURE & LEADERSHIP STRENGTHS</h2>
+      <SectionHeader title="Core Technical Skills" />
       <ul className="strengths-grid">
         {architectureAndLeadershipStrengths.map((item, index) => (
           <li key={index} className="strengths-cell">
