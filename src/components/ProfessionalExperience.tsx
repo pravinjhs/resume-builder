@@ -157,7 +157,7 @@ export const ProfessionalExperience: React.FC<ExperienceProps> = ({ jobs }) => {
               </ul>
               {project.techStack && (
                 <div className="tech-stack-badge">
-                  <strong>Tech Stack:</strong> {project.techStack}
+                  <strong className="tech-stack-heading">Tech Stack:</strong> {project.techStack}
                 </div>
               )}
             </div>
