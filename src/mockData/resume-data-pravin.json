@@ -21,6 +21,20 @@
     "<strong>Performance & Optimization:</strong> Implemented robust state management standards with Redux Toolkit, managed complex GraphQL and REST data flows, and optimized frontend performance by improving Core Web Vitals (LCP, CLS, INP), rendering pipelines, bundle sizes, lazy loading, and asset caching.",
     "<strong>AI-Assisted Delivery:</strong> Apply BMAD for spec-first planning and Cursor for context-aware implementation and test iteration; review AI-generated plans and code against the requirements, architecture, and checks before delivery."
   ],
+  "architectureAndLeadershipStrengths": [
+    "Frontend architecture & legacy modernization",
+    "Micro-frontends & Module Federation",
+    "React / Next.js & TypeScript platforms",
+    "Federated GraphQL & REST orchestration",
+    "State management (Redux Toolkit & Zustand)",
+    "Design systems, token architecture & theming",
+    "Performance, resilience & Core Web Vitals",
+    "Testing, profiling & debugging standards",
+    "Accessibility (WCAG 2.1 / ARIA) & localization",
+    "Identity, authentication & access management",
+    "Technical governance, reviews & mentoring",
+    "AI-assisted delivery & CI/CD governance"
+  ],
   "technicalSkills": [
     {
       "category": "Frontend Architecture",
