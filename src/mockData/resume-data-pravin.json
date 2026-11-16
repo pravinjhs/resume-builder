@@ -31,24 +31,20 @@
       "skills": "Node.js, Express.js, Next.js, Java, GraphQL, REST APIs, Spring Boot(Basics)"
     },
     {
-      "category": "Testing, Build Tools & Methodologies",
-      "skills": "React Testing Library, Jest, Webpack, Vite, Rollup, Test-Driven Development(TDD), Behavior-Driven Development(BDD)"
+      "category": "Testing & Build",
+      "skills": "Jest, React Testing Library, Webpack, Vite, Rollup, TDD, BDD"
     },
     {
-      "category": "DevOps & Observability",
-      "skills": "AWS, GCP, Jenkins, Git, GitLab CI/CD Pipelines, Docker, Logging & Monitoring (Splunk, Datadog, Kibana, Scribe), PagerDuty Incident Management"
+      "category": "Cloud, DevOps & Observability",
+      "skills": "AWS, GCP, Jenkins, Git, Github, Gitlab CI/CD Pipelines, Docker, Splunk, Datadog, Kibana, Scribe, PagerDuty"
     },
     {
-      "category": "UI/UX & Core Practices",
-      "skills": "Figma, Storybook, Localization, Performance Optimization(LCP, INP, CLS), WCAG 2.1, Technical Leadership, Mentoring, Cross-functional Collaboration"
+      "category": "Design & Accessibility",
+      "skills": "Storybook, Figma, Design Systems, Localization, WCAG 2.1, ARIA, Responsive UI, Core Web Vitals (LCP, INP, CLS)"
     },
     {
-      "category": "Databases",
+      "category": "Data Stores",
       "skills": "SQL, NoSQL, AWS DynamoDB, MongoDB, PostgreSQL, Apache Cassandra"
-    },
-    {
-      "category": "Domain Experience",
-      "skills": "Ticketing systems, Inventory management systems, E-commerce platforms"
     }
   ],
   "professionalExperience": [
