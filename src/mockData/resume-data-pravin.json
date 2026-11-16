@@ -106,7 +106,7 @@
       ]
     },
     {
-      "company": "GlobalLogic India Pvt Ltd, Noida",
+      "company": "GlobalLogic India Pvt Ltd, Noida & Bangalore",
       "roles": "Software Engineer",
       "duration": "Sep 2016 — Aug 2018",
       "projects": [
@@ -119,14 +119,14 @@
           ]
         },
         {
-          "title": "Rodan + Fields - R + F Pulse",
+          "title": "Rodan + Fields - R + F Pulse - Web and Mobile both",
           "bullets": [
             "It is a mobile-first digital business suite and web/mobile application designed for Brand Consultants.",
             "Wrote performance-optimized Android and iOS views using React Native, incorporating deep phone modules such as hardware-integrated contacts, direct email client protocols, and calling hooks."
           ]
         },
         {
-          "title": "HD Supply Solutions Mobile Platform",
+          "title": "HD Supply Solutions Mobile Platform - Mobile Apps",
           "bullets": [
             "Integrated hardware barcode and laser scanning APIs directly into commercial MRO inventory management systems.",
             "Coded algorithmic localized indexing filtering structures to feed instant autocomplete and context-aware product lookup modules."
@@ -141,7 +141,7 @@
       "duration": "Dec 2014 — Sep 2016",
       "projects": [
         {
-          "title": "Secugo Security Community Framework",
+          "title": "Secugo Security Community Framework - Mobile Apps",
           "bullets": [
             "Engineered localized public safety frameworks packing hardware-accelerated 3D Touch quick access menus, secure InApp purchases, and geofenced push notices via Google Maps APIs.",
             "Crafted lightning-fast instant messaging rooms utilizing low-latency full-duplex WebSocket connections."
