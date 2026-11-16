@@ -109,7 +109,7 @@
 }
 
 /* .strengths-cell:nth-child(odd) {
-  /* border-right: 1px solid #cbd5e1; */
+  border-right: 1px solid #cbd5e1;
 } */
 
 .strengths-cell:nth-child(4n + 3),
