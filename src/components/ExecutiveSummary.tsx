@@ -9,8 +9,8 @@ interface SummaryProps {
 export const ExecutiveSummary: React.FC<SummaryProps> = ({ text, bullets }) => {
   return (
     <section>
-      {text === "KEY_ACHIEVEMENTS" ? (
-        <SectionHeader title="Key Achievements" />
+      {text === "ARCHITECTURE_LEADERSHIP_STRENGTHS" ? (
+        <SectionHeader title="ARCHITECTURE & LEADERSHIP STRENGTHS" />
       ) : (
         <SectionHeader title="Executive Summary" />
       )}
