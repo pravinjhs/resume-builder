@@ -3,15 +3,15 @@
   "headline": {
     "title": "Architect",
     "subTitles": "Team Lead || SSE II",
-    "tagline": "12+ Years Building Enterprise Web Applications"
+    "tagline": "12+ YOE in building Enterprise Web Applications"
   },
   "contact": {
     "mobile": "+91-9873648928",
     "email": "pravinagrawal145@gmail.com",
     "linkedin": "https://www.linkedin.com/in/pravinjhs/",
-    "address": "B59 Swastik City, Oppo St Judge School, Jhansi Uttar Pradesh India 284001"
+    "address": "B59 Swastik City, Oppo St Judge School, Jhansi, Uttar Pradesh India 284001"
   },
-  "professionalSummary": "Architect with 12+ years of experience designing and delivering enterprise-grade web applications across customer identity, authentication, profile management, media, telecommunications, and smart-city platforms. Specialized in ReactJS, Next.js, TypeScript, Node.js, and modern frontend architecture with a strong focus on performance, accessibility, developer experience, and platform scalability. Experienced in leading cross-functional initiatives, mentoring engineers, and delivering secure, customer-facing solutions used by global audiences.",
+  "professionalSummary": "12+ years of experience designing and delivering enterprise-grade web applications across customer identity, authentication, profile management, media, telecommunications, and smart-city platforms. Specialized in ReactJS, Next.js, TypeScript, Node.js, and modern frontend architecture with a strong focus on performance, accessibility, developer experience, and platform scalability. Experienced in leading cross-functional initiatives, mentoring engineers, and delivering secure, customer-facing solutions used by global audiences.",
   "keyAchievements": [
     "<strong>Led Frontend Architecture Modernization:</strong> Spearheaded the transition of legacy enterprise web platforms into highly scalable, modern architectures (React/Next.js), significantly reducing initial load times and boosting overall application performance.",
     "<strong>Established Reusable Patterns & Systems:</strong> Designed and enforced reusable frontend component architecture, ensuring strict visual and structural consistency and development efficiency across multiple product teams.",
@@ -24,15 +24,15 @@
   "technicalSkills": [
     {
       "category": "Frontend Architecture",
-      "skills": "React JS, TypeScript, JavaScript (ES6+), Next.js, State Management (Redux Toolkit, Zustand), HTML5, CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR, SSG, ISR"
+      "skills": "React JS, TypeScript, Advanced JavaScript, State Management(Redux Toolkit, Zustand), HTML5, CSS3, Angular, React Native, Tailwind CSS, Micro Frontends, Design Systems, SSR, SSG, ISR"
     },
     {
       "category": "Backend & Cloud APIs",
-      "skills": "Node.js, Express.js, Java, GraphQL, REST APIs, Spring Boot (Basics)"
+      "skills": "Node.js, Express.js, Next.js, Java, GraphQL, REST APIs, Spring Boot(Basics)"
     },
     {
       "category": "Testing, Build Tools & Methodologies",
-      "skills": "React Testing Library, Jest, Mocha, Karma, Webpack, Vite, Rollup, Test-Driven Development (TDD), Behavior-Driven Development (BDD)"
+      "skills": "React Testing Library, Jest, Webpack, Vite, Rollup, Test-Driven Development(TDD), Behavior-Driven Development(BDD)"
     },
     {
       "category": "DevOps & Observability",
@@ -40,7 +40,7 @@
     },
     {
       "category": "UI/UX & Core Practices",
-      "skills": "WCAG 2.1 Accessibility Compliance, Figma, Storybook, Localization Management (Transifex), Performance Optimization, Code Reviews, Technical Leadership, Mentoring, Cross-functional Collaboration"
+      "skills": "Figma, Storybook, Localization, Performance Optimization(LCP, INP, CLS), WCAG 2.1, Technical Leadership, Mentoring, Cross-functional Collaboration"
     },
     {
       "category": "Databases",
@@ -126,7 +126,7 @@
           ]
         },
         {
-          "title": "HD Supply Solutions Mobile Platform - Mobile Apps",
+          "title": "HD Supply Solutions Mobile Platform - Mobile App",
           "bullets": [
             "Integrated hardware barcode and laser scanning APIs directly into commercial MRO inventory management systems.",
             "Coded algorithmic localized indexing filtering structures to feed instant autocomplete and context-aware product lookup modules."
@@ -141,7 +141,7 @@
       "duration": "Dec 2014 — Sep 2016",
       "projects": [
         {
-          "title": "Secugo Security Community Framework - Mobile Apps",
+          "title": "Secugo Security Community Framework - Mobile App",
           "bullets": [
             "Engineered localized public safety frameworks packing hardware-accelerated 3D Touch quick access menus, secure InApp purchases, and geofenced push notices via Google Maps APIs.",
             "Crafted lightning-fast instant messaging rooms utilizing low-latency full-duplex WebSocket connections."
