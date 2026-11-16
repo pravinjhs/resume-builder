@@ -1,6 +1,12 @@
-import React from 'react';
+import React from "react";
 
-export const ArchitectureStrengths: React.FC = ({architectureAndLeadershipStrengths}) => {
+interface ArchitectureStrengthsProps {
+  architectureAndLeadershipStrengths: string[];
+}
+
+export const ArchitectureStrengths: React.FC<ArchitectureStrengthsProps> = ({
+  architectureAndLeadershipStrengths,
+}) => {
   return (
     <section className="strengths-section">
       <h2 className="strengths-heading">ARCHITECTURE & LEADERSHIP STRENGTHS</h2>

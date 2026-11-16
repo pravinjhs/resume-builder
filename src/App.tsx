@@ -211,7 +211,6 @@ export const ResumeViewer: React.FC = () => {
       )}
       {resumeData.architectureAndLeadershipStrengths && (
         <ArchitectureStrengths
-          text={"ARCHITECTURE_LEADERSHIP_STRENGTHS"}
           architectureAndLeadershipStrengths={resumeData.architectureAndLeadershipStrengths}
         />
       )}
