@@ -204,7 +204,7 @@ export const ResumeViewer: React.FC = () => {
       <ExecutiveSummary text={resumeData.professionalSummary} />
       {resumeData.keyAchievements && (
         <ExecutiveSummary
-          text={"KEY_ACHIEVEMENTS"}
+          text={"ARCHITECTURE_LEADERSHIP_STRENGTHS"}
           bullets={resumeData.keyAchievements}
         />
       )}
