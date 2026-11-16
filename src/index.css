@@ -42,7 +42,7 @@
   border-left: 3px solid var(--heading-color);
 }
 
-.tech-stack-line strong {
+.tech-stack-heading {
     color: var(--heading-line-color);
     font-weight: 700;
 }
