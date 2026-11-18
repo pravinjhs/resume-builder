@@ -33,7 +33,9 @@
     "Accessibility (WCAG 2.1 / ARIA) & localization",
     "Identity, authentication & access management",
     "Technical governance, reviews & mentoring",
-    "AI-assisted delivery & CI/CD governance"
+    "AI-assisted delivery & CI/CD governance",
+"Basic knowledge of AWS services (S3, EC2, Lambda, IAM, API Gateway, ECS)",
+"Proficiency with Postman and GIT"
   ],
   "technicalSkills": [
     {
